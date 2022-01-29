@@ -1,0 +1,88 @@
+const SectionData = [
+  {
+    id: 1,
+    name: 'Quality Systems and Models',
+    prof: 'Connie Fischer',
+    desc: 'Quality Systems, Quality Models and Theories',
+    pPoint: '260 - 310',
+  },
+  {
+    id: 2,
+    name: 'Leadership',
+    prof: 'Jim Piller, **Travis??**',
+    desc: 'Organizational Structures & Culture, Leadership Challenges, Teams and Team Processes',
+    pPoint: '2 - 80',
+  },
+  {
+    id: 3,
+    name: 'Management Skills I  (Plant Manager Role)',
+    prof: 'Marc Ruyran, Octavio **[LASTNAME]???**',
+    desc: 'Management Skills & Abilities',
+    pPoint: '132 - 198',
+  },
+  {
+    id: 4,
+    name: 'Communication and Project Management',
+    prof: 'Mary Carter-Berrios',
+    desc: 'Communication Skills, pp 200 - 224, Project Management, pp 225 - 259',
+    pPoint: '200 - 259',
+  },
+  {
+    id: 5,
+    name: 'Strategic Development',
+    prof: 'Sue Barkal',
+    desc: 'Strategic Planning Models, Business Environment Analysis, Strategic Plan Deployment',
+    pPoint: '86 - 130',
+  },
+  {
+    id: 6,
+    name: 'Management Tools I  (Quality Tools)',
+    prof: 'Denise **[LASTNAME]???**',
+    desc: 'Problem Solving Tools',
+    pPoint: '314 - 352',
+  },
+  {
+    id: 7,
+    name: 'Management Tools II  (Process / Lean)',
+    prof: '**[Black Belt in house?]**',
+    desc: 'Process Management',
+    pPoint: '353 - 389',
+  },
+  {
+    id: 8,
+    name: 'Measurement Tools',
+    prof: 'Hal Perkins',
+    desc: 'Statistics, Measurement System Analysis, Variation and Capability, Reliability Terminology, Qualitative Assessment',
+    pPoint: '392 - 426',
+  },
+  {
+    id: 9,
+    name: 'Customer Focused Orgs',
+    prof: 'Holger Zillgen',
+    desc: 'Customer Identification, Customer Relationship Management',
+    pPoint: '432 - 487',
+  },
+  {
+    id: 10,
+    name: 'Supplier Management',
+    prof: 'Sonia Escamilla',
+    desc: 'Communication & Performance Assessment, Improvement, Certification Programs, Partnerships & Alliances, Logistics Management',
+    pPoint: '494 - 512',
+  },
+  {
+    id: 11,
+    name: 'Training and Development',
+    prof: 'Debra Lovelace',
+    desc: 'Training Plans, Training Needs Analysis, Training Materials Development & Delivery Methods, Evaluating Effectiveness',
+    pPoint: '514 - 549',
+  },
+  {
+    id: 12,
+    name: 'ASQ Exam Prep',
+    prof: 'Francisco Pavon',
+    desc: 'Preparation for taking the ASQ Exam',
+    pPoint: 'Exam Prep',
+  },
+];
+
+export default SectionData;
