@@ -1,12 +1,12 @@
 import React from 'react';
 import { Card, Row } from 'react-bootstrap';
 import SectionData from '../components/SectionData';
-import SectionCards from './SectionCards';
+import SectionCards from '../components/SectionCards';
 
 function Sections() {
   return (
     <Row>
-      <Card className="bg-dark my-5 border-0 px-5 ">
+      <Card className="bg-light my-5 border-0 px-5 ">
         <Card.Title className="fw-bold my-2 fs-2">Sections</Card.Title>
         <div className="grid-container d-flex flex-wrap">
           {SectionData.map((pro) => (

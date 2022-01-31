@@ -12,24 +12,24 @@ function Header() {
 
   return (
     <>
-      <Navbar bg="danger" variant="dark" className="sticky-top">
+      <Navbar bg="dark" variant="dark" className="sticky-top">
         <Container>
-          <Navbar.Brand className="d-none d-sm-block" to="/about">
+          <Navbar.Brand className="d-none d-sm-block">
             Kemet Quality Training
           </Navbar.Brand>
           <Nav className="justify-content-end  mx-auto mx-md-0">
-            <NavLink className="nav-link" to="/home">
-              HOME
-            </NavLink>
             {Auth.loggedIn() ? (
               <>
+                <NavLink className="nav-link" to="/home">
+                  HOME
+                </NavLink>
                 <NavLink className="nav-link" to="/sections">
                   SECTIONS
                 </NavLink>
-                <NavLink className="nav-link" to="/drive">
+                <NavLink className="nav-link" to="/exams">
                   EXAMS
                 </NavLink>
-                <NavLink className="nav-link" to="/drive">
+                <NavLink className="nav-link" to="/students">
                   STUDENTS
                 </NavLink>
                 <Nav.Link onClick={Auth.logout} className="nav-link">
@@ -42,7 +42,7 @@ function Header() {
                   onClick={() => setShowModal(true)}
                   className="nav-link"
                 >
-                  LOGIN/SIGN UP
+                  LOGIN
                 </Nav.Link>
               </>
             )}
