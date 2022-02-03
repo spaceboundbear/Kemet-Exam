@@ -1,14 +1,15 @@
 import React from 'react';
 import { Card, Row } from 'react-bootstrap';
-import SectionData from '../components/SectionData';
-import SectionCards from '../components/SectionCards';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import SectionData from '../components/Data/SectionData';
+import SectionCards from '../components/Cards/SectionCards';
 
 function Sections() {
   return (
     <Row>
-      <Card className="bg-light my-5 border-0 px-5 ">
-        <Card.Title className="fw-bold my-2 fs-2">Sections</Card.Title>
-        <div className="grid-container d-flex flex-wrap">
+      <Card className="bg-dark my-5 border-0 px-5">
+        <h1 className="m-5 fs-1 fw-bold text-light text-center">SECTIONS</h1>
+        <div className="grid-container">
           {SectionData.map((pro) => (
             <SectionCards
               key={pro.id}

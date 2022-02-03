@@ -1,12 +1,11 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import { Routes, Route } from 'react-router';
 import { Container } from 'react-bootstrap';
 import { ApolloProvider } from '@apollo/react-hooks';
 import ApolloClient from 'apollo-boost';
+import Header from './components/Navbar';
 import Sections from './pages/Sections';
-import Exams from './pages/Exams';
-import Home from './pages/Home';
-import { Routes, Route } from 'react-router';
 
 const client = new ApolloClient({
   request: (operation) => {
@@ -25,13 +24,12 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <>
-        <Navbar />
+        <Header />
         <Container>
           <Routes>
-            <Route exact path="/" component={Home}></Route>
-            <Route exact path="/home" component={Home}></Route>
-            <Route exact path="/sections" component={Sections}></Route>
-            <Route exact path="/exams" component={Exams}></Route>
+            <Route exact path="/" element={<Home />}></Route>
+            <Route exact path="/home" element={<Home />}></Route>
+            <Route exact path="/sections" element={<Sections />}></Route>
           </Routes>
         </Container>
       </>

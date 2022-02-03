@@ -4,13 +4,13 @@ import { Card, Col } from 'react-bootstrap';
 function SectionCards(props) {
   return (
     <Col>
-      <Card className="border-0 grid-item d-flex bg-dark flex-row text-center">
-        <Card.Body>
+      <Card className="bg-light mx-3 my-2">
+        <Card.Body className="mx-3">
           <Card.Text>
-            <h3 className="mt-2">{props.name}</h3>
+            <Card.Link pathname={props.section}>{props.name}</Card.Link>
             <h5>{props.prof}</h5>
             <p>{props.desc}</p>
-            <p>Slides: {props.pPoint}</p>
+            Slides: {props.pPoint}
           </Card.Text>
         </Card.Body>
       </Card>
