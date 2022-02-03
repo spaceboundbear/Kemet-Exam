@@ -1,12 +1,12 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 
-function SectionCards(props) {
+function QuestionCards(props) {
   return (
     <Col>
       <Card className="bg-light mx-3 my-2">
         <Card.Body className="mx-3">
-          <h2 className="fw-bold">{props.name}</h2>
+          <h2>{props.name}</h2>
           <h5>{props.prof}</h5>
           <p>{props.desc}</p>
           Slides: {props.pPoint}
@@ -16,4 +16,4 @@ function SectionCards(props) {
   );
 }
 
-export default SectionCards;
+export default QuestionCards;

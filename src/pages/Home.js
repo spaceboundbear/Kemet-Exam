@@ -9,7 +9,6 @@ function Home() {
       <Card className="mt-5 bg-dark text-light">
         <Card.Body>
           <Image width={300} src={Logo} />
-          <p>home</p>
         </Card.Body>
       </Card>
     </Container>

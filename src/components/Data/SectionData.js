@@ -5,7 +5,7 @@ const SectionData = [
     prof: 'Connie Fischer',
     desc: 'Quality Systems, Quality Models and Theories',
     pPoint: '260 - 310',
-    section: '/sectionOne',
+    section: 'sections/sectionOne',
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const SectionData = [
     prof: 'Jim Piller, **Travis??**',
     desc: 'Organizational Structures & Culture, Leadership Challenges, Teams and Team Processes',
     pPoint: '2 - 80',
-    section: '/sectionTwo',
+    section: 'sections/sectionTwo',
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const SectionData = [
     prof: 'Marc Ruyran, Octavio **[LASTNAME]???**',
     desc: 'Management Skills & Abilities',
     pPoint: '132 - 198',
-    section: '/sectionThree',
+    section: 'sections/sectionThree',
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const SectionData = [
     prof: 'Mary Carter-Berrios',
     desc: 'Communication Skills, pp 200 - 224, Project Management, pp 225 - 259',
     pPoint: '200 - 259',
-    section: '/sectionFour',
+    section: 'sections/sectionFour',
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ const SectionData = [
     prof: 'Sue Barkal',
     desc: 'Strategic Planning Models, Business Environment Analysis, Strategic Plan Deployment',
     pPoint: '86 - 130',
-    section: '/sectionFive',
+    section: 'sections/sectionFive',
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ const SectionData = [
     prof: 'Denise **[LASTNAME]???**',
     desc: 'Problem Solving Tools',
     pPoint: '314 - 352',
-    section: '/sectionSix',
+    section: 'sections/sectionSix',
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ const SectionData = [
     prof: '**[Black Belt in house?]**',
     desc: 'Process Management',
     pPoint: '353 - 389',
-    section: '/sectionSeven',
+    section: 'sections/sectionSeven',
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ const SectionData = [
     prof: 'Hal Perkins',
     desc: 'Statistics, Measurement System Analysis, Variation and Capability, Reliability Terminology, Qualitative Assessment',
     pPoint: '392 - 426',
-    section: '/sectionEight',
+    section: 'sections/sectionEight',
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ const SectionData = [
     prof: 'Holger Zillgen',
     desc: 'Customer Identification, Customer Relationship Management',
     pPoint: '432 - 487',
-    section: '/sectionNine',
+    section: 'sections/sectionNine',
   },
   {
     id: 10,
@@ -77,7 +77,7 @@ const SectionData = [
     prof: 'Sonia Escamilla',
     desc: 'Communication & Performance Assessment, Improvement, Certification Programs, Partnerships & Alliances, Logistics Management',
     pPoint: '494 - 512',
-    section: '/sectionTen',
+    section: 'sections/sectionTen',
   },
   {
     id: 11,
@@ -85,7 +85,7 @@ const SectionData = [
     prof: 'Debra Lovelace',
     desc: 'Training Plans, Training Needs Analysis, Training Materials Development & Delivery Methods, Evaluating Effectiveness',
     pPoint: '514 - 549',
-    section: '/sectionEleven',
+    section: 'sections/sectionEleven',
   },
   {
     id: 12,
@@ -93,7 +93,7 @@ const SectionData = [
     prof: 'Francisco Pavon',
     desc: 'Preparation for taking the ASQ Exam',
     pPoint: 'Exam Prep',
-    section: '/sectionTwelve',
+    section: 'sections/sectionTwelve',
   },
 ];
 
