@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ExamOneData from '../../components/Data/ExamOneData';
-import QuestionCards from '../../components/Cards/QuestionCards';
 
 function ExamOne() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -21,12 +20,26 @@ function ExamOne() {
     }
   };
 
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: {
+        examOneScore: score,
+      },
+    });
+  };
+
   return (
     <Row>
       {showScore ? (
         <Card className="mt-4">
           <Card.Title>
             Score: {score} out of {ExamOneData.length}
+            <button type="submit" onClick={handleSubmit}>
+              Submit Score
+            </button>
           </Card.Title>
         </Card>
       ) : (
