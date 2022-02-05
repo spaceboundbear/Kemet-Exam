@@ -6,6 +6,8 @@ import { ApolloProvider } from '@apollo/react-hooks';
 import ApolloClient from 'apollo-boost';
 import Header from './components/Navbar';
 import Sections from './pages/Sections';
+import ExamOne from './pages/Exams/ExamOne';
+import Exams from './pages/Exams';
 
 const client = new ApolloClient({
   request: (operation) => {
@@ -30,6 +32,8 @@ function App() {
             <Route exact path="/" element={<Home />}></Route>
             <Route exact path="/home" element={<Home />}></Route>
             <Route exact path="/sections" element={<Sections />}></Route>
+            <Route exact path="/exams" element={<Exams />}></Route>
+            <Route exact path="/exams/ExamOne" element={<ExamOne />}></Route>
           </Routes>
         </Container>
       </>

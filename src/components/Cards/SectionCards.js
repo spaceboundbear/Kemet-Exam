@@ -9,7 +9,7 @@ function SectionCards(props) {
           <h2 className="fw-bold">{props.name}</h2>
           <h5>{props.prof}</h5>
           <p>{props.desc}</p>
-          Slides: {props.pPoint}
+          Pages: {props.pPoint}
         </Card.Body>
       </Card>
     </Col>

@@ -6,10 +6,9 @@ import Logo from '../assets/KEMET-LOGO.png';
 function Home() {
   return (
     <Container className="w-auto">
+      <Image width={300} src={Logo} className="mx-auto d-block mt-5" />
       <Card className="mt-5 bg-dark text-light">
-        <Card.Body>
-          <Image width={300} src={Logo} />
-        </Card.Body>
+        <Card.Body></Card.Body>
       </Card>
     </Container>
   );

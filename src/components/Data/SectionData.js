@@ -5,7 +5,7 @@ const SectionData = [
     prof: 'Connie Fischer',
     desc: 'Quality Systems, Quality Models and Theories',
     pPoint: '260 - 310',
-    section: 'sections/sectionOne',
+    section: 'ExamOne',
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const SectionData = [
     prof: 'Jim Piller, **Travis??**',
     desc: 'Organizational Structures & Culture, Leadership Challenges, Teams and Team Processes',
     pPoint: '2 - 80',
-    section: 'sections/sectionTwo',
+    section: 'ExamTwo',
   },
   {
     id: 3,

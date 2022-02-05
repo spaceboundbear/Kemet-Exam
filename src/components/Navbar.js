@@ -22,9 +22,6 @@ function Header() {
               <NavLink className="nav-link" to="/exams">
                 EXAMS
               </NavLink>
-              <NavLink className="nav-link" to="/students">
-                STUDENTS
-              </NavLink>
               <Nav.Link className="nav-link">SIGN OUT</Nav.Link>
             </>
           </Nav>

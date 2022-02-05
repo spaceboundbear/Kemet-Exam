@@ -21,13 +21,17 @@ export const LOGIN_USER = gql`
         _id
         username
         email
+        savedScores {
+          scoreId
+          examId
+        }
       }
     }
   }
 `;
 
 export const ADD_SCORE = gql`
-  mutation addScore($scoreNumber: Integer!, $scoreStudent: String!) {
+  mutation addScore($scoreNumber: Int!, $scoreStudent: String!) {
     addScore(scoreNumber: $scoreNumber, scoreStudent: $scoreStudent) {
       _id
       scoreNumber
