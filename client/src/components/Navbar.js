@@ -2,6 +2,7 @@ import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import { NavLink } from 'react-router-dom';
+import Auth from '../utils/auth';
 
 function Header() {
   return (
@@ -16,13 +17,30 @@ function Header() {
               <NavLink className="nav-link" to="home">
                 HOME
               </NavLink>
-              <NavLink className="nav-link" to="/sections">
-                SECTIONS
-              </NavLink>
-              <NavLink className="nav-link" to="/exams">
-                EXAMS
-              </NavLink>
-              <Nav.Link className="nav-link">SIGN OUT</Nav.Link>
+              {Auth.loggedIn() ? (
+                <>
+                  <NavLink className="nav-link" to="/sections">
+                    SECTIONS
+                  </NavLink>
+                  <NavLink className="nav-link" to="/exams">
+                    EXAMS
+                  </NavLink>
+                  <Nav.Link className="nav-link">SIGN OUT</Nav.Link>
+                </>
+              ) : (
+                <>
+                  <NavLink className="nav-link" to="/login">
+                    LOGIN
+                  </NavLink>
+                  <NavLink className="nav-link" to="/sections">
+                    SECTIONS
+                  </NavLink>
+                  <NavLink className="nav-link" to="/exams">
+                    EXAMS
+                  </NavLink>
+                  <Nav.Link className="nav-link">SIGN OUT</Nav.Link>
+                </>
+              )}
             </>
           </Nav>
         </Container>

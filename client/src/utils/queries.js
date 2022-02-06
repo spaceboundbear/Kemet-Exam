@@ -4,7 +4,8 @@ export const GET_ME = gql`
   {
     me {
       _id
-      username
+      firstName
+      lastName
       email
       savedScores {
         scoreId

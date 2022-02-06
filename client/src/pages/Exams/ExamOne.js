@@ -2,11 +2,15 @@ import React, { useState } from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ExamOneData from '../../components/Data/ExamOneData';
+import { useMutation } from '@apollo/react-hooks';
+import { EXAM_ONE_SCORE } from '../../utils/mutations';
 
 function ExamOne() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [showScore, setShowScore] = useState(false);
   const [score, setScore] = useState(0);
+
+  const [examOneScore, { error }] = useMutation(EXAM_ONE_SCORE);
 
   const handleAnswerOption = (isCorrect) => {
     if (isCorrect) {
@@ -20,15 +24,17 @@ function ExamOne() {
     }
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
-    fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: {
-        examOneScore: score,
-      },
-    });
+
+    try {
+      const { data } = await examOneScore({
+        variables: { score },
+      });
+      window.location.reload();
+    } catch (err) {
+      console.error(err);
+    }
   };
 
   return (
@@ -45,19 +51,19 @@ function ExamOne() {
       ) : (
         <>
           <Card className="mt-5">
-            <Card.Body>
+            <Card.Body className="text-center">
               Question {currentQuestion + 1}/{ExamOneData.length}
             </Card.Body>
-            <Card.Title className="mb-3">
+            <Card.Title className="mb-3 text-center">
               {ExamOneData[currentQuestion].question}
             </Card.Title>
             <Row>
-              <Col>
+              <Col className="text-center">
                 {ExamOneData[currentQuestion].answers.map((answerOption) => {
                   return (
                     <li
                       key={answerOption.id}
-                      className="btn btn-primary mb-3"
+                      className="btn btn-primary mb-3 col-sm-8"
                       onClick={() => handleAnswerOption(answerOption.isCorrect)}
                     >
                       {answerOption.answerText}

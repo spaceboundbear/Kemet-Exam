@@ -1,12 +1,18 @@
 import { gql } from '@apollo/client';
 
 export const ADD_USER = gql`
-  mutation addUser($username: String!, $email: String!, $password: String!) {
+  mutation addUser(
+    $firstName: String!
+    $lastName: String!
+    $email: String!
+    $password: String!
+  ) {
     addUser(username: $username, email: $email, password: $password) {
       token
       user {
         _id
-        username
+        firstName
+        lastName
         email
       }
     }
@@ -19,7 +25,8 @@ export const LOGIN_USER = gql`
       token
       user {
         _id
-        username
+        firstName
+        lastName
         email
         savedScores {
           scoreId
@@ -30,12 +37,11 @@ export const LOGIN_USER = gql`
   }
 `;
 
-export const ADD_SCORE = gql`
-  mutation addScore($scoreNumber: Int!, $scoreStudent: String!) {
-    addScore(scoreNumber: $scoreNumber, scoreStudent: $scoreStudent) {
+export const EXAM_ONE_SCORE = gql`
+  mutation examOneScore($score: Int!) {
+    examOneScore(score: $score) {
       _id
-      scoreNumber
-      scoreStudent
+      score
     }
   }
 `;
