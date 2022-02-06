@@ -8,6 +8,7 @@ import Header from './components/Navbar';
 import Sections from './pages/Sections';
 import ExamOne from './pages/Exams/ExamOne';
 import Exams from './pages/Exams';
+import Login from './pages/Login';
 
 const client = new ApolloClient({
   request: (operation) => {
@@ -29,6 +30,7 @@ function App() {
         <Header />
         <Container>
           <Routes>
+            <Route exact path="/login" element={<Login />}></Route>
             <Route exact path="/" element={<Home />}></Route>
             <Route exact path="/home" element={<Home />}></Route>
             <Route exact path="/sections" element={<Sections />}></Route>
