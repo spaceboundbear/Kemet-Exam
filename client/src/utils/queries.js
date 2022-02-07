@@ -1,26 +1,11 @@
-import { gql } from '@apollo/client';
+import gql from 'graphql-tag';
 
 export const GET_ME = gql`
   {
     me {
       _id
-      firstName
-      lastName
+      username
       email
-      savedScores {
-        scoreId
-        examId
-      }
-    }
-  }
-`;
-
-export const QUERY_SCORE = gql`
-  query getScore {
-    score {
-      _id
-      scoreNumber
-      scoreStudent
     }
   }
 `;

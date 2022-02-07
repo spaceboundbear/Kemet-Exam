@@ -25,20 +25,15 @@ function Header() {
                   <NavLink className="nav-link" to="/exams">
                     EXAMS
                   </NavLink>
-                  <Nav.Link className="nav-link">SIGN OUT</Nav.Link>
+                  <Nav.Link onClick={Auth.logout} className="nav-link">
+                    SIGN OUT
+                  </Nav.Link>
                 </>
               ) : (
                 <>
                   <NavLink className="nav-link" to="/login">
                     LOGIN
                   </NavLink>
-                  <NavLink className="nav-link" to="/sections">
-                    SECTIONS
-                  </NavLink>
-                  <NavLink className="nav-link" to="/exams">
-                    EXAMS
-                  </NavLink>
-                  <Nav.Link className="nav-link">SIGN OUT</Nav.Link>
                 </>
               )}
             </>

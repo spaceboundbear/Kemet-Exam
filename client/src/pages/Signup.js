@@ -10,14 +10,14 @@ import {
 } from 'react-bootstrap';
 
 import { ADD_USER } from '../utils/mutations';
-import { useMutation } from '@apollo/react-hooks';
+import { useMutation } from '@apollo/client';
 
-import Auth from '../utils/auth';
 import { Link } from 'react-router-dom';
+import auth from '../utils/auth';
 
-const SignupForm = () => {
+const Signup = (props) => {
   // eslint-disable-next-line
-  const [addUser, { error }] = useMutation(ADD_USER);
+  const [addUser] = useMutation(ADD_USER);
   const [userFormData, setUserFormData] = useState({
     username: '',
     email: '',
@@ -35,28 +35,15 @@ const SignupForm = () => {
   const handleFormSubmit = async (event) => {
     event.preventDefault();
 
-    const form = event.currentTarget;
-    if (form.checkValidity() === false) {
-      event.preventDefault();
-      event.stopPropagation();
-    }
-
-    try {
-      const { data } = await addUser({
-        variables: { ...userFormData },
-      });
-
-      Auth.login(data.addUser.token);
-    } catch (e) {
-      console.error(e);
-      setShowAlert(true);
-    }
-
-    setUserFormData({
-      username: '',
-      email: '',
-      password: '',
+    const mutationResponse = await addUser({
+      variables: {
+        email: userFormData.email,
+        password: userFormData.password,
+        username: userFormData.username,
+      },
     });
+    const token = mutationResponse.data.addUser.token;
+    auth.login(token);
   };
 
   return (
@@ -149,4 +136,4 @@ const SignupForm = () => {
     </>
   );
 };
-export default SignupForm;
+export default Signup;

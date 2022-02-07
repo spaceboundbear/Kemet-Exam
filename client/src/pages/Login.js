@@ -14,12 +14,10 @@ import Auth from '../utils/auth';
 import { Link } from 'react-router-dom';
 
 const Login = () => {
-  const [login, { error }] = useMutation(LOGIN_USER);
+  const [login] = useMutation(LOGIN_USER);
   const [userFormData, setUserFormData] = useState({ email: '', password: '' });
   const [validated] = useState(false);
   const [showAlert, setShowAlert] = useState(false);
-
-  const loginToken = '1234';
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;

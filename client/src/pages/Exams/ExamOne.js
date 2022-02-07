@@ -2,15 +2,11 @@ import React, { useState } from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ExamOneData from '../../components/Data/ExamOneData';
-import { useMutation } from '@apollo/react-hooks';
-import { EXAM_ONE_SCORE } from '../../utils/mutations';
 
 function ExamOne() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [showScore, setShowScore] = useState(false);
   const [score, setScore] = useState(0);
-
-  const [examOneScore, { error }] = useMutation(EXAM_ONE_SCORE);
 
   const handleAnswerOption = (isCorrect) => {
     if (isCorrect) {
@@ -26,15 +22,6 @@ function ExamOne() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-
-    try {
-      const { data } = await examOneScore({
-        variables: { score },
-      });
-      window.location.reload();
-    } catch (err) {
-      console.error(err);
-    }
   };
 
   return (
