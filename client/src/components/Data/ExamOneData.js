@@ -162,7 +162,7 @@ const ExamOneData = [
   },
   {
     questionId: 10,
-    question: `Using the financial data below, what is the profit to investment ratio (ROA) for a hypothetical company?
+    question: `Using the financial data below, what is the profit to investment ratio (ROA) for a hypothetical company?  
     Liabilities       $150,000
     Net Income        $100,000
     Total Assets      $220,000

@@ -9,7 +9,7 @@ function ExamsCards(props) {
       <Card className="bg-light mx-3 my-2">
         <Card.Body className="mx-3">
           <Row>
-            <Col xs={9}>
+            <Col xs={8}>
               <h3 className="fw-bold">
                 {props.id}. {props.name}
               </h3>

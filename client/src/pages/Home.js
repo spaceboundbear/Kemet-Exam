@@ -7,9 +7,6 @@ function Home() {
   return (
     <Container className="w-auto">
       <Image width={300} src={Logo} className="mx-auto d-block mt-5" />
-      <Card className="mt-5 bg-dark text-light">
-        <Card.Body></Card.Body>
-      </Card>
     </Container>
   );
 }

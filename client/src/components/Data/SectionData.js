@@ -5,7 +5,7 @@ const SectionData = [
     prof: 'Connie Fischer',
     desc: 'Quality Systems, Quality Models and Theories',
     pPoint: '260 - 310',
-    section: 'ExamOne',
+    section: '/exams/ExamOne',
   },
   {
     id: 2,

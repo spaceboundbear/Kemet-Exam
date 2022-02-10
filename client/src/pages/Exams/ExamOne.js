@@ -27,25 +27,33 @@ function ExamOne() {
   return (
     <Row>
       {showScore ? (
-        <Card className="mt-4">
-          <Card.Title>
-            Score: {score} out of {ExamOneData.length}
-            <button type="submit" onClick={handleSubmit}>
+        <Card className="mt-4 mx-auto">
+          <Card.Title className="justify-content-center">
+            <p className="text-center">
+              Score: {score} out of {ExamOneData.length}
+            </p>
+            <button
+              className="mx-auto text-center"
+              type="submit"
+              onClick={handleSubmit}
+            >
               Submit Score
             </button>
           </Card.Title>
         </Card>
       ) : (
         <>
-          <Card className="mt-5">
+          <Card className="mt-5 col-sm-12">
             <Card.Body className="text-center">
               Question {currentQuestion + 1}/{ExamOneData.length}
             </Card.Body>
             <Card.Title className="mb-3 text-center">
-              {ExamOneData[currentQuestion].question}
+              <h5>{ExamOneData[currentQuestion].question}</h5>
             </Card.Title>
+          </Card>
+          <Card className="mt-3 col-sm-12">
             <Row>
-              <Col className="text-center">
+              <Col className="mt-3 text-center">
                 {ExamOneData[currentQuestion].answers.map((answerOption) => {
                   return (
                     <li
