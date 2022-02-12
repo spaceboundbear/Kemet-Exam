@@ -18,6 +18,12 @@ const userSchema = new Schema(
       type: String,
       required: true,
     },
+    examScore: {
+      type: Number,
+    },
+    examNumber: {
+      type: Number,
+    },
   },
   {
     toJSON: {

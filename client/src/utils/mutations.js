@@ -25,3 +25,15 @@ export const LOGIN_USER = gql`
     }
   }
 `;
+
+export const ADD_SCORE = gql`
+  mutation addScore($examScore: Int!, $examNumber: Int!) {
+    addScore(examScore: $examScore, examNumber: $examNumber) {
+      user {
+        _id
+        examScore
+        examNumber
+      }
+    }
+  }
+`;

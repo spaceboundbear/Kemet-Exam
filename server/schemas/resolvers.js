@@ -42,28 +42,10 @@ const resolvers = {
       return { token, user };
     },
 
-    saveRun: async (parent, { input }, context) => {
-      if (context.user) {
-        const updatedUser = await User.findByIdAndUpdate(
-          { _id: context.user._id },
-          { $addToSet: { savedRuns: input } },
-          { new: true }
-        );
-        return updatedUser;
-      }
-      throw new AuthenticationError('You need to be logged in!');
-    },
+    addScore: async (parent, { examScore, examNumber }) => {
+      const score = await User.findOneAndUpdate(examScore, examNumber);
 
-    removeRun: async (parent, args, context) => {
-      if (context.user) {
-        const updatedUser = await User.findOneAndUpdate(
-          { _id: context.user._id },
-          { $pull: { savedRuns: { runId: args.runId } } },
-          { new: true }
-        );
-        return updatedUser;
-      }
-      throw new AuthenticationError('You need to be logged in!');
+      return { score };
     },
   },
 };

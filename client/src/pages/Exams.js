@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Container, Row } from 'react-bootstrap';
+import { Card, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import SectionData from '../components/Data/SectionData';
 import ExamsCards from '../components/Cards/ExamsCards';
