@@ -6,8 +6,16 @@ export const GET_ME = gql`
       _id
       username
       email
-      examScore
-      examNumber
+    }
+  }
+`;
+
+export const QUERY_TESTS = gql`
+  query tests($_id: ID) {
+    tests(_id: $_id) {
+      _id
+      testNumber
+      testScore
     }
   }
 `;

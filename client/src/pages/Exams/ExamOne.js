@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ExamOneData from '../../components/Data/ExamOneData';
-import { ADD_SCORE } from '../../utils/mutations';
 import { useMutation } from '@apollo/client';
+import { ADD_TEST } from '../../utils/mutations';
 
 function ExamOne() {
-  const [addScore] = useMutation(ADD_SCORE);
+  const [addTest, { error }] = useMutation(ADD_TEST);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [showScore, setShowScore] = useState(false);
   const [score, setScore] = useState(0);
@@ -27,15 +27,13 @@ function ExamOne() {
     event.preventDefault();
 
     try {
-      await addScore({
-        variables: {
-          examScore: score,
-          examNumber: '1',
-        },
+      return await addTest({
+        variables: { testNumber: 1, testScore: score },
       });
-    } catch (error) {
-      console.error(error);
+    } catch (e) {
+      console.error(e);
     }
+
     console.log(score);
   };
 

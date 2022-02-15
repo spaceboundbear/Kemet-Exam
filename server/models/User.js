@@ -1,6 +1,8 @@
 const { Schema, model } = require('mongoose');
 const bcrypt = require('bcrypt');
 
+const testSchema = require('./Test');
+
 const userSchema = new Schema(
   {
     username: {
@@ -18,12 +20,7 @@ const userSchema = new Schema(
       type: String,
       required: true,
     },
-    examScore: {
-      type: Number,
-    },
-    examNumber: {
-      type: Number,
-    },
+    tests: [testSchema],
   },
   {
     toJSON: {
