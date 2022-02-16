@@ -9,7 +9,6 @@ const testSchema = new Schema({
     type: Number,
     required: true,
   },
-  tests: [this],
 });
 
 module.exports = testSchema;

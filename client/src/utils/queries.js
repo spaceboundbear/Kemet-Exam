@@ -6,13 +6,14 @@ export const GET_ME = gql`
       _id
       username
       email
+      tests
     }
   }
 `;
 
 export const QUERY_TESTS = gql`
-  query tests($_id: ID) {
-    tests(_id: $_id) {
+  {
+    tests {
       _id
       testNumber
       testScore

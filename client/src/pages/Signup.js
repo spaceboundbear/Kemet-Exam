@@ -108,7 +108,7 @@ const Signup = (props) => {
             </Form.Group>
             <div className="pt-3 px-3">
               <Row>
-                <Col className="col-sm-1">
+                <Col className="col-sm-2">
                   <Button
                     disabled={
                       !(
@@ -123,9 +123,11 @@ const Signup = (props) => {
                     Submit
                   </Button>
                 </Col>
-                <Col>
-                  <Link to={'/login'}>
-                    <button className="btn btn-primary">Or Login</button>
+                <Col className="pl-5">
+                  <Link className="float-right" to={'/login'}>
+                    <button className="float-right btn btn-primary">
+                      Or Login
+                    </button>
                   </Link>
                 </Col>
               </Row>

@@ -3,7 +3,13 @@ import { Card, Col, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
 
+import { useQuery } from '@apollo/client';
+import { QUERY_TESTS } from '../../utils/queries';
+
 function ExamsCards(props) {
+  const { data } = useQuery(QUERY_TESTS);
+  const tests = data?.tests || [];
+
   return (
     <Col>
       <Card className="bg-light mx-3 my-2">
@@ -20,7 +26,7 @@ function ExamsCards(props) {
               </Link>
             </Col>
             <Col>
-              <h5 className="mt-2">SCORE:</h5>
+              <h5 className="mt-2">SCORE:{tests}</h5>
             </Col>
           </Row>
         </Card.Body>

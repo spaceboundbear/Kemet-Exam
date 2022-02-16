@@ -6,7 +6,9 @@ import { useMutation } from '@apollo/client';
 import { ADD_TEST } from '../../utils/mutations';
 
 function ExamOne() {
+  // eslint-disable-next-line
   const [addTest, { error }] = useMutation(ADD_TEST);
+  const [testNumber, setTestNumber] = useState(0);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [showScore, setShowScore] = useState(false);
   const [score, setScore] = useState(0);

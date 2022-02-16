@@ -102,7 +102,7 @@ const Login = () => {
               <Row>
                 <Col className="col-sm-1">
                   <Button
-                    className="px-4"
+                    className=""
                     disabled={!(userFormData.email && userFormData.password)}
                     type="submit"
                     variant="success"
@@ -111,7 +111,7 @@ const Login = () => {
                   </Button>
                 </Col>
                 <Col>
-                  <Link to={'/signup'}>
+                  <Link className=" float-right" to={'/signup'}>
                     <button className="btn btn-primary">Or Sign Up</button>
                   </Link>
                 </Col>

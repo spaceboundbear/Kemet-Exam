@@ -1,7 +1,7 @@
-const { User } = require('../models');
+const { User, testSchema } = require('../models');
 const { signToken } = require('../utils/auth');
 const { AuthenticationError } = require('apollo-server-express');
-const { ConnectionStates } = require('mongoose');
+const Test = require('../models/Test');
 
 const resolvers = {
   Query: {
@@ -15,6 +15,19 @@ const resolvers = {
       }
 
       throw new AuthenticationError('Not logged in');
+    },
+    tests: async (parent, { testNumber, testScore }, context) => {
+      console.log('test query fired');
+      if (context.user) {
+        const test = {
+          testNumber,
+          testScore,
+        };
+        console.log('obj assignment passed');
+        await User.findOne({ _id: context.user._id }, { tests: test });
+        console.log('user found');
+      }
+      return testScore;
     },
   },
 
@@ -51,9 +64,9 @@ const resolvers = {
           testScore,
         };
         console.log('obj assignment passed');
-        await User.findOneAndUpdate(
-          { username: context.user.username },
-          { $push: { tests: test } }
+        await User.findByIdAndUpdate(
+          { _id: context.user._id },
+          { $addToSet: { tests: test } }
         );
         console.log('find and update executed');
 

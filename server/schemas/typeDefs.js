@@ -12,11 +12,11 @@ const typeDefs = gql`
     _id: ID
     testNumber: Int!
     testScore: Int!
-    tests: [Test]
   }
 
   type Query {
     me: User
+    tests: [Test]
   }
 
   type Mutation {
