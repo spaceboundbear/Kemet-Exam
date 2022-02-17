@@ -4,6 +4,7 @@ const testSchema = new Schema({
   testNumber: {
     type: Number,
     required: true,
+    unique: true,
   },
   testScore: {
     type: Number,

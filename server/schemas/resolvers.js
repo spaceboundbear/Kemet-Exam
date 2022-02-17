@@ -64,9 +64,9 @@ const resolvers = {
           testScore,
         };
         console.log('obj assignment passed');
-        await User.findByIdAndUpdate(
+        await User.findOneAndUpdate(
           { _id: context.user._id },
-          { $addToSet: { tests: test } }
+          { $push: { tests: test } }
         );
         console.log('find and update executed');
 
