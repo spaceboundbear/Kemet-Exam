@@ -13,10 +13,13 @@ export const GET_ME = gql`
 
 export const QUERY_TESTS = gql`
   {
-    tests {
+    me {
       _id
-      testNumber
-      testScore
+      tests {
+        _id
+        testNumber
+        testScore
+      }
     }
   }
 `;

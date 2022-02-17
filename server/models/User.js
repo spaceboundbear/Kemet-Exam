@@ -1,4 +1,5 @@
 const { Schema, model } = require('mongoose');
+const Test = require('./Test');
 const bcrypt = require('bcrypt');
 
 const userSchema = new Schema(
@@ -18,19 +19,7 @@ const userSchema = new Schema(
       type: String,
       required: true,
     },
-    tests: [
-      {
-        testNumber: {
-          type: Number,
-          required: true,
-          unique: true,
-        },
-        testScore: {
-          type: Number,
-          required: true,
-        },
-      },
-    ],
+    tests: [Test.schema],
   },
   {
     toJSON: {
