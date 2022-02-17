@@ -1,14 +1,14 @@
 const { Schema, model } = require('mongoose');
 
 const testSchema = new Schema({
+  student: {
+    type: String,
+  },
   testNumber: {
     type: Number,
-    required: true,
-    unique: true,
   },
   testScore: {
     type: Number,
-    required: true,
   },
 });
 

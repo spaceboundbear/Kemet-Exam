@@ -56,16 +56,22 @@ const resolvers = {
       return { token, user };
     },
 
-    addTest: async (parent, { _id, testNumber, testScore }, context) => {
+    addTest: async (parent, { testNumber, testScore }, context) => {
       console.log('addTest Function Fired');
       if (context.user) {
-        const test = new Test({ _id, testNumber, testScore });
+        const test = await Test.create({
+          testNumber,
+          testScore,
+        });
 
         console.log('obj assignment passed');
 
-        await User.findByIdAndUpdate(context.user._id, {
-          $push: { tests: test },
-        });
+        await User.findOneAndUpdate(
+          { id: context.user._id },
+          {
+            $addToSet: { tests: test._id },
+          }
+        );
 
         console.log('find and update executed');
 
