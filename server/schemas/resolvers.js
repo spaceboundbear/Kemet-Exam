@@ -62,6 +62,7 @@ const resolvers = {
         const test = await Test.create({
           testNumber,
           testScore,
+          student: context.user._id,
         });
 
         console.log('obj assignment passed');
