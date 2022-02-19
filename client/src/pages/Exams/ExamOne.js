@@ -8,6 +8,7 @@ import { ADD_TEST } from '../../utils/mutations';
 function ExamOne() {
   // eslint-disable-next-line
   const [addTest, { error }] = useMutation(ADD_TEST);
+  // eslint-disable-next-line
   const [testNumber, setTestNumber] = useState(0);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [showScore, setShowScore] = useState(false);
@@ -48,7 +49,7 @@ function ExamOne() {
               Score: {score} out of {ExamOneData.length}
             </p>
             <button
-              className="mx-auto text-center"
+              className="mx-auto btn btn-primary text-center"
               type="submit"
               onClick={handleSubmit}
             >

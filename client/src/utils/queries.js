@@ -33,7 +33,6 @@ export const QUERY_TESTS = gql`
       _id
       testNumber
       testScore
-      student
     }
   }
 `;

@@ -16,18 +16,15 @@ const resolvers = {
 
       throw new AuthenticationError('Not logged in');
     },
-    tests: async (parent, { testNumber, testScore }, context) => {
+
+    tests: async (parent, args, context) => {
       console.log('test query fired');
       if (context.user) {
-        const test = {
-          testNumber,
-          testScore,
-        };
-        console.log('obj assignment passed');
-        await User.findOne({ _id: context.user._id }, { tests: test });
-        console.log('user found');
+        const testData = await Test.find({ student: context.user._id });
+
+        console.log(testData);
+        return testData;
       }
-      return testScore;
     },
   },
 
@@ -62,7 +59,7 @@ const resolvers = {
         const test = await Test.create({
           testNumber,
           testScore,
-          student: context.user._id,
+          student: context.user.username,
         });
 
         console.log('obj assignment passed');
