@@ -1,4 +1,4 @@
-const { User } = require('../models');
+const { User, Answer } = require('../models');
 const { signToken } = require('../utils/auth');
 const { AuthenticationError } = require('apollo-server-express');
 const Test = require('../models/Test');
@@ -11,6 +11,7 @@ const resolvers = {
           '-__v -password'
         );
 
+        console.log(userData);
         return userData;
       }
 
@@ -55,25 +56,36 @@ const resolvers = {
 
     addTest: async (parent, { testNumber, testScore }, context) => {
       console.log('addTest Function Fired');
-      if (context.user) {
-        const test = await Test.create({
-          testNumber,
-          testScore,
-          student: context.user.username,
-        });
 
-        console.log('obj assignment passed');
+      const foundTest = await Test.findOne({ testNumber });
+      const test = await Test.updateOne({
+        testNumber,
+        testScore,
+        student: context.user.username,
+      });
+
+      if (foundTest) {
+        console.log('test found');
 
         await User.findOneAndUpdate(
-          { id: context.user._id },
+          { _id: context.user._id },
           {
-            $addToSet: { tests: test._id },
+            $set: {
+              tests: context.user._id,
+            },
           }
         );
 
-        console.log('find and update executed');
+        console.log('test updated');
+      } else {
+        console.log('no test found, creating new test');
 
-        return test;
+        await Test.create({
+          testNumber: testNumber,
+          testScore,
+          student: context.user.username,
+        });
+        console.log('new test created');
       }
     },
   },

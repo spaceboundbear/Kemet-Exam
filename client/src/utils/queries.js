@@ -27,6 +27,26 @@ export const QUERY_USER = gql`
   }
 `;
 
+export const QUERY_QUESTION_DATA = gql`
+  query answers {
+    answers {
+      _id
+      examName
+      questionsArray {
+        _id
+        questionId
+        question
+        answers {
+          _id
+          id
+          answerText
+          isCorrect
+        }
+      }
+    }
+  }
+`;
+
 export const QUERY_TESTS = gql`
   query tests {
     tests {

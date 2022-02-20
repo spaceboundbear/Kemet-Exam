@@ -31,7 +31,10 @@ function ExamOne() {
 
     try {
       return await addTest({
-        variables: { testNumber: testNumber, testScore: score },
+        variables: {
+          testNumber: testNumber,
+          testScore: score,
+        },
       });
     } catch (e) {
       console.error(e);
