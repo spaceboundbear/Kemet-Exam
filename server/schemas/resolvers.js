@@ -17,7 +17,7 @@ const resolvers = {
       throw new AuthenticationError('Not logged in');
     },
 
-    tests: async (parent, { testNumber, student }, context) => {
+    exams: async (parent, { testNumber, student }, context) => {
       console.log('test query fired');
 
       const testData = await Score.findOne({ student: context.user._id });
@@ -53,21 +53,21 @@ const resolvers = {
       return { token, user };
     },
 
-    saveTest: async (parent, { testNumber }, context) => {
+    saveTest: async (parent, { testNumber, testScore }, context) => {
       console.log('addTest Function Fired');
       if (context.user) {
-        const score = await Score.create({
+        const test = await Score.create({
           testNumber,
-          testScore: score,
+          testScore,
           student: context.user.username,
         });
 
         await User.findOneAndUpdate(
           { _id: context.user._id },
-          { $addToSet: { testScores: score._id } }
+          { $addToSet: { testScores: { testNumber, testScore } } }
         );
-
-        return score;
+        console.log(test._id);
+        return test;
       }
     },
 

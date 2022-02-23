@@ -29,16 +29,20 @@ function ExamQuestions() {
   const handleSaveTest = async (event) => {
     event.preventDefault();
 
+    console.log('save test Fired');
+
     try {
       const { data } = await saveTest({
         variables: {
+          testNumber: examNumber,
           testScore: score,
-          testNumber,
         },
       });
     } catch (err) {
       console.error(err);
     }
+
+    console.log(score);
   };
 
   return (
