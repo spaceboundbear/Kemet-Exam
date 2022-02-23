@@ -1,12 +1,15 @@
 const db = require('../config/connection');
-const { Answer } = require('../models');
+const { Exam, Section } = require('../models');
 const examSeeds = require('./examSeeds.json');
+const sectionSeeds = require('./sectionSeeds.json');
 
 db.once('open', async () => {
   try {
-    await Answer.deleteMany({});
+    await Exam.deleteMany({});
+    await Section.deleteMany({});
 
-    await Answer.create(examSeeds);
+    await Exam.create(examSeeds);
+    await Section.create(sectionSeeds);
   } catch (err) {
     console.error(err);
     process.exit(1);

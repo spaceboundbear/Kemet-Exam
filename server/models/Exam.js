@@ -1,6 +1,6 @@
 const { Schema, model } = require('mongoose');
 
-const AnswerSchema = new Schema({
+const examSchema = new Schema({
   examName: {
     type: String,
     required: true,
@@ -35,6 +35,6 @@ const AnswerSchema = new Schema({
   ],
 });
 
-const Answer = model('Answer', AnswerSchema);
+const Exam = model('Exam', examSchema);
 
-module.exports = Answer;
+module.exports = Exam;

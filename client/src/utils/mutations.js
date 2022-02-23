@@ -26,12 +26,17 @@ export const LOGIN_USER = gql`
   }
 `;
 
-export const ADD_TEST = gql`
-  mutation addTest($testNumber: Int!, $testScore: Int!) {
-    addTest(testNumber: $testNumber, testScore: $testScore) {
-      _id
-      testNumber
-      testScore
+export const SAVE_TEST = gql`
+  mutation saveTest($testNumber: Int!) {
+    saveTest(testNumber: $testNumber) {
+      token
+      user {
+        _id
+        testScores {
+          testNumber
+          testScore
+        }
+      }
     }
   }
 `;

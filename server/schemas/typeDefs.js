@@ -5,25 +5,57 @@ const typeDefs = gql`
     _id: ID
     username: String
     email: String
-    tests: [Test]!
+    scores: [Score]!
   }
 
-  type Test {
+  type Exam {
     _id: ID
-    testNumber: Int!
-    testScore: Int!
+    examName: String
+    questionsArray: [Questions]!
+  }
+
+  type Questions {
+    _id: ID
+    questionId: Int
+    question: String
+    answers: [Answers]!
+  }
+
+  type Answers {
+    _id: ID
+    id: Int
+    answerText: String
+    isCorrect: Boolean
+  }
+
+  type Section {
+    _id: ID
+    id: Int
+    name: String
+    prof: String
+    desc: String
+    pPoint: String
+    section: String
+  }
+
+  type Score {
+    _id: ID
+    testNumber: Int
+    testScore: Int
   }
 
   type Query {
     me: User
     user(username: String!): User
-    tests: [Test]!
+    scores(scoreId: ID!): [Score]
+    sections: [Section]
+    exams: [Exam]
   }
 
   type Mutation {
     login(email: String!, password: String!): Auth
     addUser(username: String!, email: String!, password: String!): Auth
-    addTest(testNumber: Int!, testScore: Int!): Test
+    saveTest(testNumber: Int!): Score
   }
 
   type Auth {

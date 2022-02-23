@@ -1,7 +1,6 @@
-const { User, Answer } = require('../models');
+const { User, Score } = require('../models');
 const { signToken } = require('../utils/auth');
 const { AuthenticationError } = require('apollo-server-express');
-const Test = require('../models/Test');
 
 const resolvers = {
   Query: {
@@ -18,14 +17,14 @@ const resolvers = {
       throw new AuthenticationError('Not logged in');
     },
 
-    tests: async (parent, args, context) => {
+    tests: async (parent, { testNumber, student }, context) => {
       console.log('test query fired');
-      if (context.user) {
-        const testData = await Test.find({ student: context.user._id });
 
-        console.log(testData);
-        return testData;
-      }
+      const testData = await Score.findOne({ student: context.user._id });
+
+      console.log(testData);
+
+      return testData;
     },
   },
 
@@ -54,40 +53,25 @@ const resolvers = {
       return { token, user };
     },
 
-    addTest: async (parent, { testNumber, testScore }, context) => {
+    saveTest: async (parent, { testNumber }, context) => {
       console.log('addTest Function Fired');
-
-      const foundTest = await Test.findOne({ testNumber });
-      const test = await Test.updateOne({
-        testNumber,
-        testScore,
-        student: context.user.username,
-      });
-
-      if (foundTest) {
-        console.log('test found');
+      if (context.user) {
+        const score = await Score.create({
+          testNumber,
+          testScore: score,
+          student: context.user.username,
+        });
 
         await User.findOneAndUpdate(
           { _id: context.user._id },
-          {
-            $set: {
-              tests: context.user._id,
-            },
-          }
+          { $addToSet: { testScores: score._id } }
         );
 
-        console.log('test updated');
-      } else {
-        console.log('no test found, creating new test');
-
-        await Test.create({
-          testNumber: testNumber,
-          testScore,
-          student: context.user.username,
-        });
-        console.log('new test created');
+        return score;
       }
     },
+
+    //
   },
 };
 

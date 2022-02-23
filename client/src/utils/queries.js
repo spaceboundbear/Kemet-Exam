@@ -47,12 +47,26 @@ export const QUERY_QUESTION_DATA = gql`
   }
 `;
 
-export const QUERY_TESTS = gql`
-  query tests {
-    tests {
-      _id
+export const QUERY_SINGLE_TEST = gql`
+  query tests($_id: ID!) {
+    tests(id: $_id) {
+      id
       testNumber
       testScore
+      student
+    }
+  }
+`;
+
+export const QUERY_TESTS = gql`
+  query getTests {
+    user {
+      tests {
+        _id
+        testNumber
+        testScore
+        student
+      }
     }
   }
 `;

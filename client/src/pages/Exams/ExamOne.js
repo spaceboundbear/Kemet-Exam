@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ExamOneData from '../../components/Data/ExamOneData';
-import { useMutation, useQuery } from '@apollo/client';
-import { ADD_TEST } from '../../utils/mutations';
+import { useMutation } from '@apollo/client';
+import { SAVE_TEST } from '../../utils/mutations';
 
-function ExamOne() {
+function ExamQuestions() {
   // eslint-disable-next-line
-  const [addTest, { error }] = useMutation(ADD_TEST);
+  const [saveTest, { error }] = useMutation(SAVE_TEST);
   // eslint-disable-next-line
-  const [testNumber, setTestNumber] = useState(0);
+  const [examNumber, setExamNumber] = useState(0);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [showScore, setShowScore] = useState(false);
   const [score, setScore] = useState(0);
@@ -26,21 +26,19 @@ function ExamOne() {
     }
   };
 
-  const handleSubmit = async (event) => {
+  const handleSaveTest = async (event) => {
     event.preventDefault();
 
     try {
-      return await addTest({
+      const { data } = await saveTest({
         variables: {
-          testNumber: testNumber,
           testScore: score,
+          testNumber,
         },
       });
-    } catch (e) {
-      console.error(e);
+    } catch (err) {
+      console.error(err);
     }
-
-    console.log(score);
   };
 
   return (
@@ -54,7 +52,7 @@ function ExamOne() {
             <button
               className="mx-auto btn btn-primary text-center"
               type="submit"
-              onClick={handleSubmit}
+              onClick={handleSaveTest}
             >
               Submit Score
             </button>
@@ -93,4 +91,4 @@ function ExamOne() {
   );
 }
 
-export default ExamOne;
+export default ExamQuestions;
