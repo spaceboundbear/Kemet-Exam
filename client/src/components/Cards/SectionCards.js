@@ -1,19 +1,22 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 
-function SectionCards(props) {
+const SectionCards = ({ sections }) => {
   return (
     <Col>
-      <Card className="bg-light mx-3 my-2">
-        <Card.Body className="mx-3">
-          <h2 className="fw-bold">{props.name}</h2>
-          <h5>{props.prof}</h5>
-          <p>{props.desc}</p>
-          Pages: {props.pPoint}
-        </Card.Body>
-      </Card>
+      {sections &&
+        sections.map((section) => (
+          <Card key={section._id} className="bg-light mx-3 my-2">
+            <Card.Body className="mx-3">
+              <h2 className="fw-bold">{section.name}</h2>
+              <h5>{section.prof}</h5>
+              <p>{section.desc}</p>
+              Pages: {section.pPoint}
+            </Card.Body>
+          </Card>
+        ))}
     </Col>
   );
-}
+};
 
 export default SectionCards;

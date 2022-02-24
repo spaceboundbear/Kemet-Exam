@@ -26,9 +26,10 @@ export const LOGIN_USER = gql`
   }
 `;
 
-export const SAVE_TEST = gql`
-  mutation saveTest($testNumber: Int!, $testScore: Int!) {
-    saveTest(testNumber: $testNumber, testScore: $testScore) {
+export const ADD_SCORE = gql`
+  mutation addScore($testNumber: Int!, $testScore: Int!) {
+    addScore(testNumber: $testNumber, testScore: $testScore) {
+      _id
       testNumber
       testScore
     }

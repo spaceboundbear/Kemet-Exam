@@ -1,4 +1,4 @@
-const { User, Score } = require('../models');
+const { User, Score, Section, Exam } = require('../models');
 const { signToken } = require('../utils/auth');
 const { AuthenticationError } = require('apollo-server-express');
 
@@ -6,25 +6,33 @@ const resolvers = {
   Query: {
     me: async (parent, args, context) => {
       if (context.user) {
-        const userData = await User.findOne({ _id: context.user._id }).select(
-          '-__v -password'
-        );
-
-        console.log(userData);
-        return userData;
+        return User.findOne({ _id: context.user._id }).populate('testScores');
       }
-
-      throw new AuthenticationError('Not logged in');
+      throw new AuthenticationError('You need to be logged in!');
     },
 
-    exams: async (parent, { testNumber, student }, context) => {
-      console.log('test query fired');
+    user: async (parent, { username }) => {
+      return User.findOne({ username }).populate('testScores');
+    },
 
-      const testData = await Score.findOne({ student: context.user._id });
+    scores: async (parent, { username }) => {
+      console.log('scores query fired');
+      const params = username ? { username } : {};
 
-      console.log(testData);
+      return Score.find(params).sort({ testNumber: -1 });
+    },
 
-      return testData;
+    score: async (parent, { scoreId }) => {
+      console.log('single exam query fired');
+      return Score.findOne({ _id: scoreId });
+    },
+
+    sections: async () => {
+      return Section.find().sort({ id: +1 });
+    },
+
+    exams: async (parent, { examId }) => {
+      return Exam.find(examId);
     },
   },
 
@@ -53,9 +61,17 @@ const resolvers = {
       return { token, user };
     },
 
-    saveTest: async (parent, { testNumber, testScore }, context) => {
-      console.log('addTest Function Fired');
-      if (context.user) {
+    addScore: async (parent, { testNumber, testScore }, context) => {
+      console.log('addScore Function Fired');
+
+      const foundTest = await Score.findOne({
+        student: context.user.username,
+        testNumber,
+      });
+
+      if (!foundTest) {
+        console.log('test not found, creating test');
+
         const test = await Score.create({
           testNumber,
           testScore,
@@ -64,10 +80,18 @@ const resolvers = {
 
         await User.findOneAndUpdate(
           { _id: context.user._id },
-          { $addToSet: { testScores: { testNumber, testScore } } }
+          { $push: { testScores: test._id } }
         );
         console.log(test._id);
+
         return test;
+      } else {
+        console.log('test found, updating');
+
+        return await Score.updateOne(
+          { _id: foundTest._id },
+          { $push: testNumber, testScore }
+        );
       }
     },
 

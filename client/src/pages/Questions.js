@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ExamOneData from '../../components/Data/ExamOneData';
+import ExamOneData from '../components/Data/ExamOneData';
 import { useMutation } from '@apollo/client';
-import { SAVE_TEST } from '../../utils/mutations';
+import { ADD_SCORE } from '../utils/mutations';
 
 function ExamQuestions() {
   // eslint-disable-next-line
-  const [saveTest, { error }] = useMutation(SAVE_TEST);
+  const [addScore, { error }] = useMutation(ADD_SCORE);
   // eslint-disable-next-line
-  const [examNumber, setExamNumber] = useState(0);
+  const [examNumber, setExamNumber] = useState(1);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [showScore, setShowScore] = useState(false);
   const [score, setScore] = useState(0);
@@ -29,10 +29,10 @@ function ExamQuestions() {
   const handleSaveTest = async (event) => {
     event.preventDefault();
 
-    console.log('save test Fired');
+    console.log('handle save test function fired');
 
     try {
-      const { data } = await saveTest({
+      const { data } = await addScore({
         variables: {
           testNumber: examNumber,
           testScore: score,
@@ -40,6 +40,7 @@ function ExamQuestions() {
       });
     } catch (err) {
       console.error(err);
+      console.log('error');
     }
 
     console.log(score);

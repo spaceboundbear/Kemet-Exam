@@ -1,12 +1,16 @@
 import gql from 'graphql-tag';
 
-export const GET_ME = gql`
+export const QUERY_ME = gql`
   query me {
     me {
       _id
       username
       email
-      tests
+      testScores {
+        _id
+        testNumber
+        testScore
+      }
     }
   }
 `;
@@ -27,9 +31,9 @@ export const QUERY_USER = gql`
   }
 `;
 
-export const QUERY_QUESTION_DATA = gql`
-  query answers {
-    answers {
+export const QUERY_EXAM_DATA = gql`
+  query getExams {
+    exams {
       _id
       examName
       questionsArray {
@@ -47,10 +51,10 @@ export const QUERY_QUESTION_DATA = gql`
   }
 `;
 
-export const QUERY_SINGLE_TEST = gql`
-  query tests($_id: ID!) {
-    tests(id: $_id) {
-      id
+export const QUERY_SCORES = gql`
+  query getScores {
+    scores {
+      _id
       testNumber
       testScore
       student
@@ -58,15 +62,26 @@ export const QUERY_SINGLE_TEST = gql`
   }
 `;
 
-export const QUERY_TESTS = gql`
-  query getTests {
-    user {
-      tests {
-        _id
-        testNumber
-        testScore
-        student
-      }
+export const QUERY_SINGLE_SCORE = gql`
+  query getSingleScore($scoreId: ID!) {
+    score(scoreId: $scoreId) {
+      _id
+      testNumber
+      testScore
+      student
+    }
+  }
+`;
+
+export const QUERY_SECTIONS = gql`
+  query getSections {
+    sections {
+      _id
+      name
+      prof
+      desc
+      pPoint
+      section
     }
   }
 `;
