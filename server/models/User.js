@@ -19,7 +19,12 @@ const userSchema = new Schema(
       type: String,
       required: true,
     },
-    testScores: [Score.schema],
+    testScores: [
+      {
+        type: Schema.Types.ObjectId,
+        ref: 'Score',
+      },
+    ],
   },
   {
     toJSON: {

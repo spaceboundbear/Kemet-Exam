@@ -1,8 +1,8 @@
 const { Schema, model } = require('mongoose');
 
 const scoreSchema = new Schema({
-  testNumber: {
-    type: Number,
+  examId: {
+    type: String,
   },
   testScore: {
     type: Number,

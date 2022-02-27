@@ -80,7 +80,7 @@ const resolvers = {
       console.log('addScore Function Fired');
 
       const foundTest = await Score.findOne({
-        _id: examId,
+        examId: examId,
         student: context.user.username,
       });
 
@@ -93,17 +93,29 @@ const resolvers = {
           student: context.user.username,
         });
 
-        return test;
+        const user = await User.findOneAndUpdate(
+          { _id: context.user._id },
+          { $addToSet: { testScores: { _id: examId } } }
+        );
+
+        return { test, user };
       }
 
       console.log('test found, updating');
-      return await User.findOneAndUpdate(
-        { _id: examId },
-        { $addToSet: { testScores: { testScore } } }
-      );
-    },
 
-    //
+      const updateScore = await Score.findOneAndUpdate(
+        { examId: examId, student: context.user.username },
+        { $set: { testScore } }
+      );
+
+      const updateUser = await User.findOneAndUpdate(
+        { _id: context.user._id },
+        { $addToSet: { testScores: { _id: examId } } }
+      );
+      console.log('updating user');
+
+      return { updateScore, updateUser };
+    },
   },
 };
 

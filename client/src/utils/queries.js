@@ -56,7 +56,7 @@ export const QUERY_SCORES = gql`
   query getScores {
     scores {
       _id
-      testNumber
+      examId
       testScore
       student
     }

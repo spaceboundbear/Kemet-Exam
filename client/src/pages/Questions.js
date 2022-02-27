@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { useMutation, useQuery } from '@apollo/client';
 import { ADD_SCORE } from '../utils/mutations';
 import { QUERY_SINGLE_EXAM } from '../utils/queries';
-import { useParams } from 'react-router-dom';
+import { useHistory, useParams } from 'react-router-dom';
 
 function ExamQuestions() {
   const { examId } = useParams();
@@ -35,6 +35,13 @@ function ExamQuestions() {
     }
   };
 
+  const history = useHistory();
+
+  const redirect = () => {
+    let path = '/exams';
+    history.push(path);
+  };
+
   const handleSaveTest = async (event) => {
     event.preventDefault();
 
@@ -50,7 +57,6 @@ function ExamQuestions() {
       });
     } catch (err) {
       console.error(err);
-      console.log(data);
     }
 
     console.log(score);
@@ -70,7 +76,7 @@ function ExamQuestions() {
             <button
               className="mx-auto btn btn-primary text-center"
               type="submit"
-              onClick={handleSaveTest}
+              onClick={(handleSaveTest, redirect)}
             >
               Submit Score
             </button>
