@@ -5,7 +5,7 @@ const typeDefs = gql`
     _id: ID
     username: String
     email: String
-    scores: [Score]!
+    testScores: [Score]
   }
 
   type Exam {
@@ -42,15 +42,18 @@ const typeDefs = gql`
     _id: ID
     testNumber: Int
     testScore: Int
+    student: String
   }
 
   type Query {
     me: User
+    users: [User]
     user(username: String!): User
     scores(username: String): [Score]
     score(scoreId: ID!): Score
     sections: [Section]
     exams: [Exam]
+    exam(examId: ID!): Exam
   }
 
   type Mutation {
@@ -60,7 +63,7 @@ const typeDefs = gql`
   }
 
   type Auth {
-    token: ID
+    token: ID!
     user: User
   }
 `;

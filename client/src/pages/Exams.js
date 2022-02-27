@@ -4,17 +4,19 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ExamsCards from '../components/Cards/ExamsCards';
 
 import { useQuery } from '@apollo/client';
-import { QUERY_SECTIONS } from '../utils/queries';
+import { QUERY_EXAMS } from '../utils/queries';
 
 const Exams = () => {
-  const { loading, data } = useQuery(QUERY_SECTIONS);
-  const sections = data?.sections || [];
+  const { loading, data } = useQuery(QUERY_EXAMS);
+  const exams = data?.exams || [];
+
+  console.log(exams);
   return (
     <Container>
       <Card className="bg-dark my-5 border-0 px-5  py-2">
         <h1 className="m-5 fs-1 fw-bold text-light text-center">EXAMS</h1>
         <div className="grid-container">
-          {loading ? <div>Loading...</div> : <ExamsCards sections={sections} />}
+          {loading ? <div>Loading...</div> : <ExamsCards exams={exams} />}
         </div>
       </Card>
     </Container>

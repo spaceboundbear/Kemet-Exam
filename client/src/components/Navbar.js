@@ -25,6 +25,9 @@ function Header() {
                   <NavLink className="nav-link" to="/exams">
                     EXAMS
                   </NavLink>
+                  <NavLink className="nav-link" to="/me">
+                    PROFILE
+                  </NavLink>
                   <Nav.Link onClick={Auth.logout} className="nav-link">
                     SIGN OUT
                   </Nav.Link>

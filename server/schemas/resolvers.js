@@ -6,12 +6,21 @@ const resolvers = {
   Query: {
     me: async (parent, args, context) => {
       if (context.user) {
-        return User.findOne({ _id: context.user._id }).populate('testScores');
+        console.log('me queried');
+        const userData = await User.findOne({ _id: context.user._id }).select(
+          '-__v -password'
+        );
+        return userData;
       }
-      throw new AuthenticationError('You need to be logged in!');
+      throw new AuthenticationError('Not logged in');
+    },
+
+    users: async () => {
+      return User.find().populate('testScores');
     },
 
     user: async (parent, { username }) => {
+      console.log('user queried');
       return User.findOne({ username }).populate('testScores');
     },
 
@@ -31,8 +40,14 @@ const resolvers = {
       return Section.find().sort({ id: +1 });
     },
 
-    exams: async (parent, { examId }) => {
-      return Exam.find(examId);
+    exams: async () => {
+      console.log('exams queried');
+      return Exam.find().sort({ _id: +1 });
+    },
+
+    exam: async (parent, { examId }) => {
+      console.log('single exam queried');
+      return Exam.findOne({ _id: examId });
     },
   },
 
@@ -61,38 +76,31 @@ const resolvers = {
       return { token, user };
     },
 
-    addScore: async (parent, { testNumber, testScore }, context) => {
+    addScore: async (parent, { examId, testScore }, context) => {
       console.log('addScore Function Fired');
 
       const foundTest = await Score.findOne({
+        _id: examId,
         student: context.user.username,
-        testNumber,
       });
 
       if (!foundTest) {
         console.log('test not found, creating test');
 
         const test = await Score.create({
-          testNumber,
+          examId,
           testScore,
           student: context.user.username,
         });
 
-        await User.findOneAndUpdate(
-          { _id: context.user._id },
-          { $push: { testScores: test._id } }
-        );
-        console.log(test._id);
-
         return test;
-      } else {
-        console.log('test found, updating');
-
-        return await Score.updateOne(
-          { _id: foundTest._id },
-          { $push: testNumber, testScore }
-        );
       }
+
+      console.log('test found, updating');
+      return await User.findOneAndUpdate(
+        { _id: examId },
+        { $addToSet: { testScores: { testScore } } }
+      );
     },
 
     //
