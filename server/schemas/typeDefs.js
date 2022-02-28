@@ -42,7 +42,6 @@ const typeDefs = gql`
     _id: ID
     examId: String
     examName: String
-    testNumber: Int
     testScore: Int
     student: String
   }

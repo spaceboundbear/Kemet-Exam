@@ -25,7 +25,6 @@ export const QUERY_USER = gql`
       email
       testScores {
         _id
-        testNumber
         testScore
         student
       }
@@ -69,7 +68,6 @@ export const QUERY_SINGLE_SCORE = gql`
   query getSingleScore($scoreId: ID!) {
     score(scoreId: $scoreId) {
       _id
-      testNumber
       testScore
       student
     }

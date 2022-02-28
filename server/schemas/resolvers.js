@@ -28,7 +28,7 @@ const resolvers = {
       console.log('scores query fired');
       const params = username ? { username } : {};
 
-      return Score.find(params).sort({ testNumber: -1 });
+      return Score.find(params).sort({});
     },
 
     score: async (parent, { scoreId }) => {
