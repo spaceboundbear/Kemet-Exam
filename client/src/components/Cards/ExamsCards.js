@@ -8,8 +8,8 @@ const ExamsCards = ({ exams }) => {
     <Col>
       {exams &&
         exams.map((exam) => (
-          <Card key={exam._id} className="bg-light mx-3 my-2">
-            <Card.Body className="mx-3">
+          <Card key={exam._id} className="bg-light col-sm-12  my-2">
+            <Card.Body className="mx-1">
               <Row>
                 <Col xs={10}>
                   <h3 className="fw-bold">{exam.examName}</h3>

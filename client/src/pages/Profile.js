@@ -11,7 +11,7 @@ const Profile = () => {
 
   useEffect(() => {
     refetch();
-  }, []);
+  }, [userData]);
 
   if (loading) {
     return <div>Loading...</div>;

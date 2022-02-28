@@ -68,11 +68,11 @@ function ExamQuestions() {
   return (
     <Row>
       {showScore ? (
-        <Card className="mt-4 mx-auto">
-          <Card.Title className="justify-content-center">
-            <p className="text-center">
+        <Card className="mt-4 mx-auto col-sm-6 text-center">
+          <Card.Title className="justify-content-center mt-3">
+            <h4 className="text-center">
               Score: {score} out of {questions.length}
-            </p>
+            </h4>
             <button
               className="mx-auto btn btn-primary text-center"
               type="submit"

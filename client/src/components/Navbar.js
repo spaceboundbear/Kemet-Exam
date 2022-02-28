@@ -9,7 +9,7 @@ function Header() {
     <>
       <Navbar bg="dark" variant="dark" className="sticky-top">
         <Container>
-          <Navbar.Brand className="d-none d-sm-block">
+          <Navbar.Brand className="d-none d-md-block">
             Kemet Quality Training
           </Navbar.Brand>
           <Nav className="justify-content-end mx-auto mx-md-0">
