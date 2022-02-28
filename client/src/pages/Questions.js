@@ -53,13 +53,14 @@ function ExamQuestions() {
         variables: {
           examId: exam._id,
           testScore: score,
+          examName: exam.examName,
         },
       });
     } catch (err) {
       console.error(err);
     }
 
-    console.log(score);
+    console.log(exam.examName);
   };
 
   if (loading) {
@@ -76,7 +77,7 @@ function ExamQuestions() {
             <button
               className="mx-auto btn btn-primary text-center"
               type="submit"
-              onClick={(handleSaveTest, redirect)}
+              onClick={handleSaveTest}
             >
               Submit Score
             </button>

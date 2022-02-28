@@ -4,6 +4,9 @@ const scoreSchema = new Schema({
   examId: {
     type: String,
   },
+  examName: {
+    type: String,
+  },
   testScore: {
     type: Number,
   },

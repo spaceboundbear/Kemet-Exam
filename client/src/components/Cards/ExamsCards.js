@@ -11,16 +11,13 @@ const ExamsCards = ({ exams }) => {
           <Card key={exam._id} className="bg-light mx-3 my-2">
             <Card.Body className="mx-3">
               <Row>
-                <Col xs={8}>
+                <Col xs={10}>
                   <h3 className="fw-bold">{exam.examName}</h3>
                 </Col>
                 <Col>
                   <Link to={`/exams/${exam._id}`}>
-                    <button className="btn btn-primary mt-1">TAKE EXAM</button>
+                    <button className="btn btn-primary">TAKE EXAM</button>
                   </Link>
-                </Col>
-                <Col>
-                  <h5 className="mt-2">SCORE </h5>
                 </Col>
               </Row>
             </Card.Body>

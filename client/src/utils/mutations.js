@@ -27,10 +27,11 @@ export const LOGIN_USER = gql`
 `;
 
 export const ADD_SCORE = gql`
-  mutation addScore($examId: ID!, $testScore: Int!) {
-    addScore(examId: $examId, testScore: $testScore) {
+  mutation addScore($examId: ID!, $testScore: Int!, $examName: String!) {
+    addScore(examId: $examId, testScore: $testScore, examName: $examName) {
       examId
       testScore
+      examName
       student
     }
   }

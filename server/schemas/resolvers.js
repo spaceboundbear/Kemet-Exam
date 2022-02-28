@@ -7,9 +7,9 @@ const resolvers = {
     me: async (parent, args, context) => {
       if (context.user) {
         console.log('me queried');
-        const userData = await User.findOne({ _id: context.user._id }).select(
-          '-__v -password'
-        );
+        const userData = await User.findOne({ _id: context.user._id })
+          .select('-__v -password')
+          .populate('testScores');
         return userData;
       }
       throw new AuthenticationError('Not logged in');
@@ -76,7 +76,7 @@ const resolvers = {
       return { token, user };
     },
 
-    addScore: async (parent, { examId, testScore }, context) => {
+    addScore: async (parent, { examId, testScore, examName }, context) => {
       console.log('addScore Function Fired');
 
       const foundTest = await Score.findOne({
@@ -89,13 +89,18 @@ const resolvers = {
 
         const test = await Score.create({
           examId,
+          examName,
           testScore,
           student: context.user.username,
         });
 
         const user = await User.findOneAndUpdate(
           { _id: context.user._id },
-          { $addToSet: { testScores: { _id: examId } } }
+          {
+            $addToSet: {
+              testScores: { _id: examId, testScore, examName: examName },
+            },
+          }
         );
 
         return { test, user };
@@ -110,7 +115,7 @@ const resolvers = {
 
       const updateUser = await User.findOneAndUpdate(
         { _id: context.user._id },
-        { $addToSet: { testScores: { _id: examId } } }
+        { $addToSet: { testScores: { _id: examId, testScore, examName } } }
       );
       console.log('updating user');
 

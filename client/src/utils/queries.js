@@ -8,7 +8,8 @@ export const QUERY_ME = gql`
       email
       testScores {
         _id
-        testNumber
+        examId
+        examName
         testScore
         student
       }
@@ -57,6 +58,7 @@ export const QUERY_SCORES = gql`
     scores {
       _id
       examId
+      examName
       testScore
       student
     }

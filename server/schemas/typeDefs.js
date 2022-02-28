@@ -41,6 +41,7 @@ const typeDefs = gql`
   type Score {
     _id: ID
     examId: String
+    examName: String
     testNumber: Int
     testScore: Int
     student: String
@@ -60,7 +61,7 @@ const typeDefs = gql`
   type Mutation {
     login(email: String!, password: String!): Auth
     addUser(username: String!, email: String!, password: String!): Auth
-    addScore(examId: ID!, testScore: Int!): Score
+    addScore(examId: ID!, testScore: Int!, examName: String!): Score
   }
 
   type Auth {
