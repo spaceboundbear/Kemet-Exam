@@ -18,7 +18,6 @@ function ExamQuestions() {
 
   // eslint-disable-next-line
   const [addScore, { error }] = useMutation(ADD_SCORE);
-  // eslint-disable-next-line
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [showScore, setShowScore] = useState(false);
   const [score, setScore] = useState(0);
@@ -52,7 +51,7 @@ function ExamQuestions() {
       const { data } = await addScore({
         variables: {
           examId: exam._id,
-          testScore: score,
+          testScore: Math.round((score / 12) * 100),
           examName: exam.examName,
         },
       });
@@ -60,7 +59,7 @@ function ExamQuestions() {
       console.error(err);
     }
 
-    console.log(exam.examName);
+    redirect();
   };
 
   if (loading) {

@@ -10,7 +10,6 @@ const Exams = () => {
   const { loading, data } = useQuery(QUERY_EXAMS);
   const exams = data?.exams || [];
 
-  console.log(exams);
   return (
     <Container>
       <Card className="bg-dark my-5 border-0 px-5  py-2">

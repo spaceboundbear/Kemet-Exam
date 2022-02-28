@@ -98,7 +98,7 @@ const resolvers = {
           { _id: context.user._id },
           {
             $addToSet: {
-              testScores: { _id: examId, testScore, examName: examName },
+              testScores: { _id: test._id },
             },
           }
         );
@@ -115,7 +115,11 @@ const resolvers = {
 
       const updateUser = await User.findOneAndUpdate(
         { _id: context.user._id },
-        { $addToSet: { testScores: { _id: examId, testScore, examName } } }
+        {
+          $addToSet: {
+            testScores: { _id: examId },
+          },
+        }
       );
       console.log('updating user');
 
