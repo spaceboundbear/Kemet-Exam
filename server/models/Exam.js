@@ -12,6 +12,9 @@ const examSchema = new Schema({
         type: Number,
         required: true,
       },
+      section: {
+        type: String,
+      },
       question: {
         type: String,
         required: true,

@@ -1,9 +1,10 @@
 [
   {
-    "examName": "Exam One",
+    "examName": "Management Skills I Exam",
     "questionsArray": [
       {
         "questionId": 1,
+        "section": "4.1",
         "question": "Work Breakdown Structure Means:",
         "answers": [
           {
@@ -30,6 +31,7 @@
       },
       {
         "questionId": 2,
+        "section": "4.14",
         "question": "The Myers-Briggs type indicator (MBTI) should be used for which of the following applications?",
         "answers": [
           {
@@ -56,6 +58,7 @@
       },
       {
         "questionId": 3,
+        "section": "4.2",
         "question": "Which of the major management activities will normally take the largest amount of a manager's time?",
         "answers": [
           { "id": 0, "answerText": "Planning", "isCorrect": true },
@@ -66,6 +69,7 @@
       },
       {
         "questionId": 4,
+        "section": "4.21",
         "question": "Financial assets with value such as goodwill, patents, licenses, and intellectual property are called:",
         "answers": [
           { "id": 0, "answerText": "Equity", "isCorrect": true },
@@ -76,6 +80,7 @@
       },
       {
         "questionId": 5,
+        "section": "4.26",
         "question": "Frederick Taylor is associated with which management style?",
         "answers": [
           { "id": 0, "answerText": "Systemic Management", "isCorrect": true },
@@ -98,6 +103,7 @@
       },
       {
         "questionId": 6,
+        "section": "4.29",
         "question": "Information comes to this person quite readily. They are often at the crossroads of many people. These two statements describe:",
         "answers": [
           { "id": 0, "answerText": "Door Openers", "isCorrect": true },
@@ -108,6 +114,7 @@
       },
       {
         "questionId": 7,
+        "section": "4.32",
         "question": "In cost accounting, categories like rent, lighting, water, garbage disposal, and selected areas of maintenance are called:",
         "answers": [
           { "id": 0, "answerText": "Overhead", "isCorrect": true },
@@ -122,6 +129,7 @@
       },
       {
         "questionId": 8,
+        "section": "4.36",
         "question": "The quality function within an organization would normally include responsibility for which of the following activities?",
         "answers": [
           {
@@ -148,6 +156,7 @@
       },
       {
         "questionId": 9,
+        "section": "4.4",
         "question": "Consider the following definitions.  Which is the most appropriate description of knowledge management?",
         "answers": [
           {
@@ -174,6 +183,7 @@
       },
       {
         "questionId": 10,
+        "section": "4.41",
         "question": "Using the financial data below, what is the profit to investment ratio ROA for a hypothetical company? Liabilities       $150,000 Net Income        $100,000 Total Assets      $220,000 Equity            $30,000",
         "answers": [
           { "id": 0, "answerText": "0.30", "isCorrect": true },
@@ -184,6 +194,7 @@
       },
       {
         "questionId": 11,
+        "section": "4.47",
         "question": "In reviewing the actual performance of managers, one would find that the majority of a manager's time is actually spent:",
         "answers": [
           {
@@ -210,6 +221,7 @@
       },
       {
         "questionId": 12,
+        "section": "4.7",
         "question": "What should be the first key consideration in directing the professional growth of assigned employees?",
         "answers": [
           {
@@ -237,236 +249,270 @@
     ]
   },
   {
-    "examName": "Exam Two",
+    "examName": "Management Skills II Exam",
     "questionsArray": [
       {
         "questionId": 1,
-        "question": "Work Breakdown Structure Means:",
+        "section": "4.10",
+        "question": "Given the following projected project activity times: t0 optimistic time = 5 days tm = most likely time = 7 days tp = most pessimistic time = 15 days What would be the expected activity completion time?",
         "answers": [
           {
             "id": 0,
-            "answerText": "An autopsy of successfully completed projects",
+            "answerText": "5 Days",
             "isCorrect": true
           },
           {
             "id": 1,
-            "answerText": "The resources required for a project have been exhausted",
+            "answerText": "7 Days",
             "isCorrect": false
           },
           {
             "id": 2,
-            "answerText": "The project plan has failed due to a lack of support by upper management",
+            "answerText": "8 Days",
             "isCorrect": false
           },
           {
             "id": 3,
-            "answerText": "The statement of work is divided into the detailed listing of required activities",
+            "answerText": "15 Days",
             "isCorrect": false
           }
         ]
       },
       {
         "questionId": 2,
-        "question": "The Myers-Briggs type indicator (MBTI) should be used for which of the following applications?",
+        "section": "4.11",
+        "question": "The main objective of a benefit cost analysis is to:",
         "answers": [
           {
             "id": 0,
-            "answerText": "To weed out undesirable traits from certain job positions",
+            "answerText": "Identify the project benefits",
             "isCorrect": true
           },
           {
             "id": 1,
-            "answerText": "To restrict individuals in electing career choices",
+            "answerText": "Estimate the project cost factors",
             "isCorrect": false
           },
           {
             "id": 2,
-            "answerText": "To help companies optimize their use of human resources",
+            "answerText": "Determine if a project will be worthwhile",
             "isCorrect": false
           },
           {
             "id": 3,
-            "answerText": "To assist managers in manipulating subordinates and peers",
+            "answerText": "Calculate the net project gain or loss",
             "isCorrect": false
           }
         ]
       },
       {
         "questionId": 3,
-        "question": "Which of the major management activities will normally take the largest amount of a manager's time?",
+        "section": "4.13",
+        "question": "A project review would concern itself with which of the following?",
         "answers": [
-          { "id": 0, "answerText": "Planning", "isCorrect": true },
-          { "id": 1, "answerText": "Organizing", "isCorrect": false },
-          { "id": 2, "answerText": "Staffing", "isCorrect": false },
-          { "id": 3, "answerText": "Controlling", "isCorrect": false }
-        ]
-      },
-      {
-        "questionId": 4,
-        "question": "Financial assets with value such as goodwill, patents, licenses, and intellectual property are called:",
-        "answers": [
-          { "id": 0, "answerText": "Equity", "isCorrect": true },
-          { "id": 1, "answerText": "Intagibles", "isCorrect": false },
-          { "id": 2, "answerText": "Currency", "isCorrect": false },
-          { "id": 3, "answerText": "Income", "isCorrect": false }
-        ]
-      },
-      {
-        "questionId": 5,
-        "question": "Frederick Taylor is associated with which management style?",
-        "answers": [
-          { "id": 0, "answerText": "Systemic Management", "isCorrect": true },
+          {
+            "id": 0,
+            "answerText": "The effectiveness of competing projects.",
+            "isCorrect": true
+          },
           {
             "id": 1,
-            "answerText": "Scientific Management",
+            "answerText": "The storage media for document archiving.",
             "isCorrect": false
           },
           {
             "id": 2,
-            "answerText": "Time and Motion Management",
+            "answerText": "How well the project was modified.",
             "isCorrect": false
           },
           {
             "id": 3,
-            "answerText": "Quantitative Management",
+            "answerText": "How well project team members worked together.",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 4,
+        "section": "4.19",
+        "question": "Which of the following is a primary reason for periodic project reviews?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "To highlight the project team's efforts.",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "To review the schedule and costs.",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "To celebrate goal achievement.",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "To replace the project manager for poor performance.",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 5,
+        "section": "4.27",
+        "question": "Advantages to the use of Gantt charts include:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "The charts are easy to understand.",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "The details of activities are easily displayed.",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Each bar represents multiple activities.",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Estimates of optimistic, most likely, and pessimistic times are included.",
             "isCorrect": false
           }
         ]
       },
       {
         "questionId": 6,
-        "question": "Information comes to this person quite readily. They are often at the crossroads of many people. These two statements describe:",
+        "section": "4.34",
+        "question": "As project manager, your project is starting to run behind schedule on one event.  To make things worse, the event is on the critical path.  You want to get the project back on schedule.  Which of the following is the best course of action?",
         "answers": [
-          { "id": 0, "answerText": "Door Openers", "isCorrect": true },
-          { "id": 1, "answerText": "Boundary Spanners", "isCorrect": false },
-          { "id": 2, "answerText": "Grapevines", "isCorrect": false },
-          { "id": 3, "answerText": "Gatekeepers", "isCorrect": false }
+          {
+            "id": 0,
+            "answerText": "Request authorization to crash the event.",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Direct the line manager to release a critical resource for your use.",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Negotiate with a line manager who controls a critical resource.",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "No action is necessary at this point.",
+            "isCorrect": false
+          }
         ]
       },
       {
         "questionId": 7,
-        "question": "In cost accounting, categories like rent, lighting, water, garbage disposal, and selected areas of maintenance are called:",
+        "section": "4.45",
+        "question": "As a matter of good project management practice, the final compiled costs should:",
         "answers": [
-          { "id": 0, "answerText": "Overhead", "isCorrect": true },
-          { "id": 1, "answerText": "Indirect Materials", "isCorrect": false },
-          { "id": 2, "answerText": "Labor", "isCorrect": false },
+          {
+            "id": 0,
+            "answerText": "Not exceed the approved written amount.",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Not exceed the forecast revenues and costs.",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Be an actual compilation of revenues and costs that have occurred.",
+            "isCorrect": false
+          },
           {
             "id": 3,
-            "answerText": "Work in process materials",
+            "answerText": "Have a small variance from the budgeted amount.",
             "isCorrect": false
           }
         ]
       },
       {
         "questionId": 8,
-        "question": "The quality function within an organization would normally include responsibility for which of the following activities?",
+        "section": "4.5",
+        "question": "The use of the Program Evaluation and Review Technique (PERT) requires:",
         "answers": [
           {
             "id": 0,
-            "answerText": "Auditing, reliability, and calibration",
+            "answerText": "The critical path to be known in advance.",
             "isCorrect": true
           },
           {
             "id": 1,
-            "answerText": "Purchasing, auditing, and calibration",
+            "answerText": "Slack times to be added to the critical path.",
             "isCorrect": false
           },
           {
             "id": 2,
-            "answerText": "Reliability, human resources, and auditing",
+            "answerText": "Time estimates for each activity in the network.",
             "isCorrect": false
           },
           {
             "id": 3,
-            "answerText": "Calibration, human resources, and purchasing",
+            "answerText": "Less data than a Gantt chart.",
             "isCorrect": false
           }
         ]
       },
       {
         "questionId": 9,
-        "question": "Consider the following definitions.  Which is the most appropriate description of knowledge management?",
+        "section": "4.6",
+        "question": "Risk analysis planning should:",
         "answers": [
           {
             "id": 0,
-            "answerText": "A pattern of information from which explicit inferences and predictions can be made",
+            "answerText": "Be done at the beginning of the project planning phase.",
             "isCorrect": true
           },
           {
             "id": 1,
-            "answerText": "Stored historical information that can be brought to bear on present decisions",
+            "answerText": "Eliminate all associated contingency plans.",
             "isCorrect": false
           },
           {
             "id": 2,
-            "answerText": "Those processes that support a firm in creating, disseminating, and applying knowledge",
+            "answerText": "Identify and implement a metrics program.",
             "isCorrect": false
           },
           {
             "id": 3,
-            "answerText": "The knowledge that resides in the minds of people, often not found in a database",
+            "answerText": "Be updated upon project completion.",
             "isCorrect": false
           }
         ]
       },
       {
         "questionId": 10,
-        "question": "Using the financial data below, what is the profit to investment ratio ROA for a hypothetical company? Liabilities       $150,000 Net Income        $100,000 Total Assets      $220,000 Equity            $30,000",
-        "answers": [
-          { "id": 0, "answerText": "0.30", "isCorrect": true },
-          { "id": 1, "answerText": "0.45", "isCorrect": false },
-          { "id": 2, "answerText": "0.67", "isCorrect": false },
-          { "id": 3, "answerText": "0.68", "isCorrect": false }
-        ]
-      },
-      {
-        "questionId": 11,
-        "question": "In reviewing the actual performance of managers, one would find that the majority of a manager's time is actually spent:",
+        "section": "4.9",
+        "question": "With regard to conditions on the work floor, what type of information should the quality manager consider to be of highest value?",
         "answers": [
           {
             "id": 0,
-            "answerText": "In controlling and organizing",
+            "answerText": "Upward flow (from below)",
             "isCorrect": true
           },
           {
             "id": 1,
-            "answerText": "In planning and staffing",
+            "answerText": "Downward flow (from the top)",
             "isCorrect": false
           },
-          {
-            "id": 2,
-            "answerText": "In conversations and meetings",
-            "isCorrect": false
-          },
+          { "id": 2, "answerText": "Horizontal flow", "isCorrect": false },
           {
             "id": 3,
-            "answerText": "In appraising and rewarding personnel",
-            "isCorrect": false
-          }
-        ]
-      },
-      {
-        "questionId": 12,
-        "question": "What should be the first key consideration in directing the professional growth of assigned employees?",
-        "answers": [
-          {
-            "id": 0,
-            "answerText": "Assessing where the employee is now",
-            "isCorrect": true
-          },
-          {
-            "id": 1,
-            "answerText": "Establishing individual career goals (by the employee)",
-            "isCorrect": false
-          },
-          {
-            "id": 2,
-            "answerText": "Developing an implementation plan to achieve the identified goals",
-            "isCorrect": false
-          },
-          {
-            "id": 3,
-            "answerText": "identifying any necessary educational activities",
+            "answerText": "Informal network information",
             "isCorrect": false
           }
         ]
@@ -474,236 +520,3169 @@
     ]
   },
   {
-    "examName": "Exam Three",
+    "examName": "Quality Systems & Models Exam",
     "questionsArray": [
       {
         "questionId": 1,
-        "question": "Work Breakdown Structure Means:",
+        "section": "5.3",
+        "question": "A thorough review of the works of the major quality gurus would indicate which of the following to be the most effective way to create quality?",
         "answers": [
           {
             "id": 0,
-            "answerText": "An autopsy of successfully completed projects",
+            "answerText": "Effective problem solving",
             "isCorrect": true
           },
           {
             "id": 1,
-            "answerText": "The resources required for a project have been exhausted",
+            "answerText": "Benchmarking the best competitive practices",
             "isCorrect": false
           },
           {
             "id": 2,
-            "answerText": "The project plan has failed due to a lack of support by upper management",
+            "answerText": "Continuous process improvement",
             "isCorrect": false
           },
           {
             "id": 3,
-            "answerText": "The statement of work is divided into the detailed listing of required activities",
+            "answerText": "Modern statistical control techniques.",
             "isCorrect": false
           }
         ]
       },
       {
         "questionId": 2,
-        "question": "The Myers-Briggs type indicator (MBTI) should be used for which of the following applications?",
+        "section": "5.6",
+        "question": "For a TQM effort, the most desirable first step is to:",
         "answers": [
           {
             "id": 0,
-            "answerText": "To weed out undesirable traits from certain job positions",
+            "answerText": "Develop a quality policy",
             "isCorrect": true
           },
           {
             "id": 1,
-            "answerText": "To restrict individuals in electing career choices",
+            "answerText": "Establish a quality council",
             "isCorrect": false
           },
           {
             "id": 2,
-            "answerText": "To help companies optimize their use of human resources",
+            "answerText": "Establish a strategic quality goals",
             "isCorrect": false
           },
           {
             "id": 3,
-            "answerText": "To assist managers in manipulating subordinates and peers",
+            "answerText": "Train for internal audits",
             "isCorrect": false
           }
         ]
       },
       {
         "questionId": 3,
-        "question": "Which of the major management activities will normally take the largest amount of a manager's time?",
+        "section": "5.9",
+        "question": "One of Dr. Deming's 14 Points for Management states \"Cease dependence upon inspection as a way to achieve quality.\"  The underlying tenet of this statement is which of the following?",
         "answers": [
-          { "id": 0, "answerText": "Planning", "isCorrect": true },
-          { "id": 1, "answerText": "Organizing", "isCorrect": false },
-          { "id": 2, "answerText": "Staffing", "isCorrect": false },
-          { "id": 3, "answerText": "Controlling", "isCorrect": false }
-        ]
-      },
-      {
-        "questionId": 4,
-        "question": "Financial assets with value such as goodwill, patents, licenses, and intellectual property are called:",
-        "answers": [
-          { "id": 0, "answerText": "Equity", "isCorrect": true },
-          { "id": 1, "answerText": "Intagibles", "isCorrect": false },
-          { "id": 2, "answerText": "Currency", "isCorrect": false },
-          { "id": 3, "answerText": "Income", "isCorrect": false }
-        ]
-      },
-      {
-        "questionId": 5,
-        "question": "Frederick Taylor is associated with which management style?",
-        "answers": [
-          { "id": 0, "answerText": "Systemic Management", "isCorrect": true },
+          {
+            "id": 0,
+            "answerText": "Many American companies employ too many inspectors",
+            "isCorrect": true
+          },
           {
             "id": 1,
-            "answerText": "Scientific Management",
+            "answerText": "Quality should be built into the product not inspected in",
             "isCorrect": false
           },
           {
             "id": 2,
-            "answerText": "Time and Motion Management",
+            "answerText": "In most cases, the workers should perform their own inspection",
             "isCorrect": false
           },
           {
             "id": 3,
-            "answerText": "Quantitative Management",
+            "answerText": "Most manual inspection will miss 10 - 20% of defects",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 4,
+        "section": "5.12",
+        "question": "Which existing quality function could be separated from the quality department without serious loss of standards, policies, and the like?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Quality information group",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Reliability engineering",
+            "isCorrect": false
+          },
+          { "id": 2, "answerText": "Inspection", "isCorrect": false },
+          { "id": 3, "answerText": "Lab testing", "isCorrect": false }
+        ]
+      },
+      {
+        "questionId": 5,
+        "section": "5.15",
+        "question": "Skip-level meetings are often used by upper management to determine the effectiveness of quality or other organizational systems.  What is a risk associated with such meetings?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "The lower organizational levels won't know what's going on",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "The meetings may show support for organizational goals",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "The manager may devote time to micro-managing instead of delegating",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "The manager may solicit information which would typically not be communicated",
             "isCorrect": false
           }
         ]
       },
       {
         "questionId": 6,
-        "question": "Information comes to this person quite readily. They are often at the crossroads of many people. These two statements describe:",
+        "section": "5.18",
+        "question": "What key step would follow an evaluation of current practices against a benchmark?",
         "answers": [
-          { "id": 0, "answerText": "Door Openers", "isCorrect": true },
-          { "id": 1, "answerText": "Boundary Spanners", "isCorrect": false },
-          { "id": 2, "answerText": "Grapevines", "isCorrect": false },
-          { "id": 3, "answerText": "Gatekeepers", "isCorrect": false }
-        ]
-      },
-      {
-        "questionId": 7,
-        "question": "In cost accounting, categories like rent, lighting, water, garbage disposal, and selected areas of maintenance are called:",
-        "answers": [
-          { "id": 0, "answerText": "Overhead", "isCorrect": true },
-          { "id": 1, "answerText": "Indirect Materials", "isCorrect": false },
-          { "id": 2, "answerText": "Labor", "isCorrect": false },
+          {
+            "id": 0,
+            "answerText": "Identifying key performance factors",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Selecting performance criteria based on priorities",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Determining a leader in a critical performance area",
+            "isCorrect": false
+          },
           {
             "id": 3,
-            "answerText": "Work in process materials",
+            "answerText": "Undertaking significant changes to advance performance",
             "isCorrect": false
           }
         ]
       },
       {
+        "questionId": 7,
+        "section": "5.21",
+        "question": "A company is required by customer contract to have a standard quality system implemented, but does not indicate a specific standard.  Which quality system is most appropriate to meet this customer's requirement?",
+        "answers": [
+          { "id": 0, "answerText": "BNQP", "isCorrect": true },
+          { "id": 1, "answerText": "ISO 9000", "isCorrect": false },
+          { "id": 2, "answerText": "ISO 9001", "isCorrect": false },
+          { "id": 3, "answerText": "ISO 9004", "isCorrect": false }
+        ]
+      },
+      {
         "questionId": 8,
-        "question": "The quality function within an organization would normally include responsibility for which of the following activities?",
+        "section": "5.24",
+        "question": "Which of the following is one of Crosby's four absolutes of quality management?",
         "answers": [
           {
             "id": 0,
-            "answerText": "Auditing, reliability, and calibration",
+            "answerText": "The quality performance standard is zero defects",
             "isCorrect": true
           },
           {
             "id": 1,
-            "answerText": "Purchasing, auditing, and calibration",
+            "answerText": "Quality means doing it right the first time",
             "isCorrect": false
           },
           {
             "id": 2,
-            "answerText": "Reliability, human resources, and auditing",
+            "answerText": "The customer is always right",
             "isCorrect": false
           },
           {
             "id": 3,
-            "answerText": "Calibration, human resources, and purchasing",
+            "answerText": "Quality is everyone's job",
             "isCorrect": false
           }
         ]
       },
       {
         "questionId": 9,
-        "question": "Consider the following definitions.  Which is the most appropriate description of knowledge management?",
+        "section": "5.27",
+        "question": "The quality department uses an annual review process during which the past year's performance is evaluated, and goals and objectives are set for the individuals.  Which of the following is the key constraint when setting goals and objectives for an individual?",
         "answers": [
           {
             "id": 0,
-            "answerText": "A pattern of information from which explicit inferences and predictions can be made",
+            "answerText": "They must be consistent with departmental and company goals and objectives",
             "isCorrect": true
           },
           {
             "id": 1,
-            "answerText": "Stored historical information that can be brought to bear on present decisions",
+            "answerText": "They must be what the individual wants to do",
             "isCorrect": false
           },
           {
             "id": 2,
-            "answerText": "Those processes that support a firm in creating, disseminating, and applying knowledge",
+            "answerText": "There must be at least three goals and objectives per employee",
             "isCorrect": false
           },
           {
             "id": 3,
-            "answerText": "The knowledge that resides in the minds of people, often not found in a database",
+            "answerText": "The goals and objectives must stretch the ability of the employee",
             "isCorrect": false
           }
         ]
       },
       {
         "questionId": 10,
-        "question": "Using the financial data below, what is the profit to investment ratio ROA for a hypothetical company? Liabilities       $150,000 Net Income        $100,000 Total Assets      $220,000 Equity            $30,000",
+        "section": "5.29",
+        "question": "Your company has implemented the current Baldrige National Quality Criteria and can demonstrate in the areas of leadership and strategic planning.  There has been some weakness in the area of process management.  Considering only these three categories, you conclude that your company will obtain which of the following point totals?",
         "answers": [
-          { "id": 0, "answerText": "0.30", "isCorrect": true },
-          { "id": 1, "answerText": "0.45", "isCorrect": false },
-          { "id": 2, "answerText": "0.67", "isCorrect": false },
-          { "id": 3, "answerText": "0.68", "isCorrect": false }
+          { "id": 0, "answerText": "100", "isCorrect": true },
+          { "id": 1, "answerText": "235", "isCorrect": false },
+          { "id": 2, "answerText": "290", "isCorrect": false },
+          { "id": 3, "answerText": "310", "isCorrect": false }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "examName": "Strategic Development Exam",
+    "questionsArray": [
       {
-        "questionId": 11,
-        "question": "In reviewing the actual performance of managers, one would find that the majority of a manager's time is actually spent:",
+        "questionId": 1,
+        "section": "3.1",
+        "question": "The relevant stakeholders in an important project would typically include which of the following?",
         "answers": [
           {
             "id": 0,
-            "answerText": "In controlling and organizing",
+            "answerText": "The hourly employees and stockholders",
             "isCorrect": true
           },
           {
             "id": 1,
-            "answerText": "In planning and staffing",
+            "answerText": "Potential competitors and their employees",
             "isCorrect": false
           },
           {
             "id": 2,
-            "answerText": "In conversations and meetings",
+            "answerText": "Information technologists",
             "isCorrect": false
           },
           {
             "id": 3,
-            "answerText": "In appraising and rewarding personnel",
+            "answerText": "Six sigma and lean consulting firms",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 2,
+        "section": "3.3",
+        "question": "Strategic management planning rarely considers which external environmental variable?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Legal change",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Unexpected war",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Political change",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Competition",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 3,
+        "section": "3.6",
+        "question": "Strategic goals must be subdivided. Thus, they are:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Delegated",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Distributed",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Accountable",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Deployed",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 4,
+        "section": "3.10",
+        "question": "Lean manufacturing results in:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Personnel cutbacks and more work loads",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Reduction in costs and improvements in resource efficiency",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Avoiding routine costs and extending maintenance intervals",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "High utilization of machinery and labor",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 5,
+        "section": "3.13",
+        "question": "During goal setting, American managers should not follow the lead for their Japanese counterparts for:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Product quality",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Product serviceability",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Long term goals",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Short term goals",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 6,
+        "section": "3.16",
+        "question": "Criminal liability involving injury cases may be invoked in which of the following areas?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Negligence or fraud",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Lack of an appropriate warranty policy",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Mountebank techniques",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Delayed handling of complaints",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 7,
+        "section": "3.20",
+        "question": "Entry of new, competitive substitute products, such as plastic in place of metal in cars, has the effect of:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Increasing demand for metal products",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Raising user purchase prices",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Lowering metal producer selling prices",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Increasing changes that the Taft-Hartley Act will be invoked",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 8,
+        "section": "3.23",
+        "question": "A SWOT analysis will cause the company to look at opportunities and threats as part of its analysis.  The best area to look for opportunities is in:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "New technologies",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "External environment",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Emerging technologies",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Internal environment",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 9,
+        "section": "3.26",
+        "question": "Strategic quality goals will be subdivided into:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Major benchmarks",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Loss functions",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Numerous tactical quality goals",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Appropriate metrics",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 10,
+        "section": "3.30",
+        "question": "A manager is developing a strategic planning workshop.  Which of the following options would be considered last?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Develop a vision for the company",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Assess the strengths and weaknesses",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Gather data on the environment",
+            "isCorrect": false
+          },
+          { "id": 3, "answerText": "Implement the plan", "isCorrect": false }
+        ]
+      },
+      {
+        "questionId": 11,
+        "section": "3.33",
+        "question": "What is the greatest stumbling block for most companies that are performing comfortably after undertaking an internal capability analysis?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Reluctance to present the findings to an embarrassed management group",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "An inability on the assessor's part to develop an assessment questionnaire",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Lack of an adequate competitive comparison or benchmark organization",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Lack of an adequate follow through on any proposed action plans",
             "isCorrect": false
           }
         ]
       },
       {
         "questionId": 12,
-        "question": "What should be the first key consideration in directing the professional growth of assigned employees?",
+        "section": "3.36",
+        "question": "Broad strategic objectives have the following characteristics:",
         "answers": [
           {
             "id": 0,
-            "answerText": "Assessing where the employee is now",
+            "answerText": "They often contain many complex items",
             "isCorrect": true
           },
           {
             "id": 1,
-            "answerText": "Establishing individual career goals (by the employee)",
+            "answerText": "They are written in grandiose language",
             "isCorrect": false
           },
           {
             "id": 2,
-            "answerText": "Developing an implementation plan to achieve the identified goals",
+            "answerText": "They are general enough to not require frequent rewrite",
             "isCorrect": false
           },
           {
             "id": 3,
-            "answerText": "identifying any necessary educational activities",
+            "answerText": "They reflect a 1 to 3 year window",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 13,
+        "section": "3.40",
+        "question": "When considering stakeholder groups, which of the following terms is most closely identified with the term \"community\"?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Society",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Government",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "External customers",
+            "isCorrect": false
+          },
+          { "id": 3, "answerText": "Suppliers", "isCorrect": false }
+        ]
+      },
+      {
+        "questionId": 14,
+        "section": "3.43",
+        "question": "Short term tactical plans are:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Usually defined by customer",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Set before objectives can be determined",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Supportive of strategic objectives",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Normally opposite to long range objectives",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 15,
+        "section": "3.46",
+        "question": "Of the multitude of strategic planning outputs, which of the following sets of terms are most likely to be measured?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Mission and objectives",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Objectives and goals",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Vision and mission",
+            "isCorrect": false
+          },
+          { "id": 3, "answerText": "Goals and vision", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "examName": "Supplier Management Exam",
+    "questionsArray": [
+      {
+        "questionId": 1,
+        "section": "9.1",
+        "question": "Supplier training has become more widespread among U.S. companies.  Which of the following is the best reason for doing so?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "To replace partnership relationships",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "To promote mutual trust between two suppliers",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "To reduce costs and prevent future problems",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "To share valuable proprietary information with key suppliers",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 2,
+        "section": "9.4",
+        "question": "A customer may provide certification to a supplier, but efforts should not end there. The customer should also provide surveillance via:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Program auditing",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "100% incoming inspection",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Continued ISO 9001 registration on the supplier's part",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Self compliance plans",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 3,
+        "section": "9.7",
+        "question": "A pre-award evaluation of a supplier's quality system capability should include consideration of:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "The supplier's product quality history",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "The supplier's geographical location",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "The supplier's cost structure",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "The supplier's future audit requirements",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 4,
+        "section": "9.9",
+        "question": "Technical service to suppliers is:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "A great public relations gesture when personnel are available",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "A greater benefit to the company than it is to the supplier",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "A support feature for which suppliers are normally charged",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "An optional luxury which is not a company responsibility",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 5,
+        "section": "9.12",
+        "question": "When buying materials and other items from outside sources it is best to:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Reduce the number of sources for a given item consistent with the law, and quality and schedule protection",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Increase the number of qualified suppliers to assure quality, schedule and price protection",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Maintain a large list of qualified vendors, but buy from local suppliers when possible",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Buy parts from Japanese and German sources (where price permits) because their tolerances are better",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 6,
+        "section": "9.14",
+        "question": "Which of the following would be a modern supplier expectation from their major customer?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Involvement in new product development",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Extending little cooperation",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Maintaining existing receiving inspection methods",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Expectation of short-term business",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 7,
+        "section": "9.17",
+        "question": "The economic aspects of a customer-supplier relationship would be best served if the initial planning meetings focused on which of the following?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Quality requirements and audit schedules",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Conformance to specifications and delivery schedules",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "JIT aspects and shipping methods",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Purchasing value and overall quality costs",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 8,
+        "section": "9.19",
+        "question": "Measures of supplier performance are needed in order to:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Identify areas for corrective action",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Reduce the number of suppliers",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Make suppliers more responsive",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Have a supplier evaluation system in place",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 9,
+        "section": "9.22",
+        "question": "The current trend in supplier relationships is aimed at:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Determining the lowest cost supplier",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Total life cycle costs",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Interdependence of customers and suppliers",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Fewer contacts between customer / supplier",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 10,
+        "section": "9.24",
+        "question": "In business partnerships, which of the following items would be expected?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "A small share of a partner's business",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "An ability to supply competitor business",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "The presence of joint task teams",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "A restriction in critical information flow",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 11,
+        "section": "9.27",
+        "question": "The most common method of presenting supplier performance elements to both supplier and business customer management is:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Cost of quality formats",
+            "isCorrect": true
+          },
+          { "id": 1, "answerText": "Trend charting", "isCorrect": false },
+          { "id": 2, "answerText": "Tabular tables", "isCorrect": false },
+          { "id": 3, "answerText": "Control charting", "isCorrect": false }
+        ]
+      },
+      {
+        "questionId": 12,
+        "section": "9.29",
+        "question": "In evaluating a supplier manufacturing process, which of the following is the BEST predictor of future quality?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "ISO 9001 or ISO / TS 16949 certification",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Supplier product reviews",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Supplier quality ratings",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Prior product performance",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 13,
+        "section": "9.32",
+        "question": "ISO 9001 requires the preservation of product. This provision applies to:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "The validation of design and development",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "The exercise of normal care with customer property",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "The identification, packaging, and storage details",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "The verification activities to ensure attainment of requirements",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 14,
+        "section": "9.34",
+        "question": "Supplier assessment metrics that emphasize JIT (just in time) performance would include which of the following",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Percent of orders over and under quantity",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Percentage of reported versus required quality information",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Percentage of supplied versus required certifications",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Percent of rejected product out of total delivered product",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 15,
+        "section": "9.37",
+        "question": "Just-in-time (JIT) procurement is normally preceded immediately by:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Ship-to-stock (STS) procurement",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Multiple supplier procurement",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "A customer and supplier alliance",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "A customer and supplier partnership",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "examName": "Training and Development Exam",
+    "questionsArray": [
+      {
+        "questionId": 1,
+        "section": "10.2",
+        "question": "When presenting materials to both adult and youthful students, many instructors have encountered a concept know as primacy and recency. Which of the following best describes this training feature?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Learning at regular intervals is more effective than cramming",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "The beginning and ending training material is most likely to be remembered",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Training can be more meaningful when the student has an active role",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Feedback is an essential learning ingredient",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 2,
+        "section": "10.5",
+        "question": "If one were to summarize the results of a training needs analysis into a few words, what would be the best selection from the choices presented below?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Providing incentives and meaningful work",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Giving cognitive support",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Identifying performance gaps",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Developing skills and knowledge",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 3,
+        "section": "10.7",
+        "question": "Kirkpatrick has presented a model for evaluating the effectiveness of training programs. Which of the four levels is the most complex and hardest to evaluate?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Results",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Learning",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Behavior",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Reaction",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 4,
+        "section": "10.10",
+        "question": "Ultimate responsibility for training is vested with:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "The department supervisor",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Co-workers",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "The human resource department",
+            "isCorrect": false
+          },
+          { "id": 3, "answerText": "The employee", "isCorrect": false }
+        ]
+      },
+      {
+        "questionId": 5,
+        "section": "10.12",
+        "question": "The primary advantage of training managers in quality concepts before line workers is:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Managers have more time available for training",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Managers must lead the quality improvement efforts",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Managers may not value the quality concepts",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Managers are more valuable to the organization than subordinates",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 6,
+        "section": "10.15",
+        "question": "Training methods using lectures, books, and homework:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Are seldom used for high tech products",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Will be obsolete within 20 years",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Allows for instructor adjustment to meet class specific needs",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Requires a relatively high cost for preparation of course materials",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 7,
+        "section": "10.17",
+        "question": "The use of technology in training:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Is expected to decrease in the future because of increased costs",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Enables one instructor to teach a virtually unlimited number of people",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Reduces costs and time for development of training materials",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Does not promote improvements when used to analyze physical activities",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 8,
+        "section": "10.20",
+        "question": "The single most important factor in establishing an effective company training effort is:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Top management support",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Willingness of an employee to learn",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Immediate supervisor's support",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Good instruction and materials",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 9,
+        "section": "10.22",
+        "question": "An essential technique in making training programs more effective is to:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Have training classes which teach skills and knowledge required",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Provide feedback to the employee as to his / her performance",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Post results of performance before and after the training program",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Set individual goals instead of group goals",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 10,
+        "section": "10.25",
+        "question": "When a student receives high marks on a set of questions relating to training he / she received, it indicates that:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "The student understood the training material",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "The test questions were fair",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Most of the questions were answered correctly",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "The student can apply the training information",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 11,
+        "section": "10.27",
+        "question": "Individual training needs are most effectively developed when:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "They encompass the difference between the desired and the current abilities",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "They concentrate on middle management instruction to ensure their cooperation later",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "They are combined with incoming employee screening testing",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "They focus on what an individual must achieve for advancement",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 12,
+        "section": "10.30",
+        "question": "A company operates on all three shifts, including days, evenings and nights.  Which of the following is the optimal choice for time of training?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Have all classes start at 8:30 AM",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Offer both 8:00 AM and 4:00 PM classes and have the employees select",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Start classes at one-half hour after the start of each regular shift",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Start classes at one-half hour before the end of each regular shift",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 13,
+        "section": "10.32",
+        "question": "An Employee Training Needs Analysis:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Identifies the difference between required or desired abilities and current skills.",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Highlights the educational deficiency areas of the employee",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Is performed by the employee's peers when a high degree of accuracy is needed",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Should be completed on a monthly basis",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 14,
+        "section": "10.35",
+        "question": "An organization offers a question CD, which students can use to measure their knowledge in various CMQ / OE BoK (Certified Manager of Quality/Organizational Excellence  Book of Knowledge) areas.  From the organization's perspective, this tool would be considered:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "A classical training tool with low development costs",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "A technical training tool with low user costs",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "A classical training tool with high user costs",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "A technical training tool with low development costs.",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 15,
+        "section": "10.37",
+        "question": "Which of the following training planning factors would come last in order sequence?",
+        "answers": [
+          { "id": 0, "answerText": "Determine the needs", "isCorrect": true },
+          {
+            "id": 1,
+            "answerText": "Define the objectives",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Determine the course content and structure",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Prepare the necessary material",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "examName": "Management Tools I Exam",
+    "questionsArray": [
+      {
+        "questionId": 1,
+        "section": "6.1",
+        "question": "Which of the new quality management tools is used to organize facts and data about an unfamiliar subject or problem?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Affinity diagrams",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Header techniques",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Tree diagrams",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Matrix diagrams",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 2,
+        "section": "6.11",
+        "question": "If prevention costs are increased to pay for engineering work in quality control, resulting in a reduction in the number of product defects, this yields a reduction in:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Appraisal costs",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Operating costs",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Quality costs",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Failure costs",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 3,
+        "section": "6.15",
+        "question": "Scatter diagrams are useful in problem solving because they:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Display the significant few",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Eliminate the trivial many",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Show relationships between variables",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Highlight assignable causes",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 4,
+        "section": "6.17",
+        "question": "Which of the following Japanese techniques is most clearly identified with small incremental change?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Kaizen",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Kanban",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Poka-yoke",
+            "isCorrect": false
+          },
+          { "id": 3, "answerText": "5S strategy", "isCorrect": false }
+        ]
+      },
+      {
+        "questionId": 5,
+        "section": "6.2",
+        "question": "The percentages of total quality cost are distributed as follows:  prevention 12%; appraisal 28%; internal failure 40%; and external failure 20%.  From this information one can conclude:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "More money should be invested in prevention",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Expenditures for failure are excessive",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "The amount spent for appraisal seems about right",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Nothing",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 6,
+        "section": "6.21",
+        "question": "The purpose of the \"check\" step in the PDCA cycle is which of the following?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Gather feedback for improvement or corrections",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Evaluate alternate solutions",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Implement necessary reforms",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Enact the agreed upon plan",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 7,
+        "section": "6.26",
+        "question": "A Pareto diagram is created from historical product defect data.  The following numbers of defects were noted for a one month period: \\Surface blemishes: 38 \\Bolt missing: 20 \\Minor inclusions: 33 \\Part cracking: 17 \\Bolt loose: 4 \\Other: 14 \\From the above data, one can conclude:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "The operator causes more problems than the design",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "The other category is insignificant",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Inclusions cause more defects than cracking",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Surface blemishes cost more than any other category",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 8,
+        "section": "6.3",
+        "question": "A disadvantage of a fishbone diagram is:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "It displays causes in an organized manner",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "It takes time to perform and prioritize",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "It presents the problem graphically",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "It isolates problems into categories",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 9,
+        "section": "6.37",
+        "question": "In the problem definition phase of a continuous improvement project, which of the following tools would be considered particularly effective?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Histograms",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Cause and effect diagrams",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Process capability determination",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Plan-Do-Check-Act (PDCA)",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 10,
+        "section": "6.4",
+        "question": "Operations has worked with the engineering and quality departments for three months to refine a new armature assembly line. Operations, engineering and quality should then:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Request compensation time for the extraordinary number of hours spent on this project",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Summarize the achievements in a memo to upper management",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Document the process using written procedures and flow charting",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Recognize and reward the teams and individuals responsible for this accomplishment",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 11,
+        "section": "6.41",
+        "question": "A primary reason to flow chart a process is to:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Identify sources of non-conforming products",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Help analyze the process and compare it to written instructions",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Reduce process variation and increase productivity",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Define ideal locations to add product inspection activities",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 12,
+        "section": "6.7",
+        "question": "The term \"severity\" in a FMEA describes the:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Difficulty of completing the FMEA form",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Possible impact to a system user of a low level failure",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Likelihood of a failure",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Time the system is expected to be down",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "examName": "Management Tools II Exam",
+    "questionsArray": [
+      {
+        "questionId": 1,
+        "section": "6.13",
+        "question": "Which of the following measurements would normally be included when establishing process goals?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Effectiveness, efficiency, and adaptability",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Process duration and value added cost per unit",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Cycle time and supplier delay time",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Process accuracy and processing time",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 2,
+        "section": "6.22",
+        "question": "Overall equipment effectiveness (OEE) is calculated using what factors?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Availability, performance efficiency, rate of quality",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Continuous flow, manufacturing rate, and muda",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Mistake proofing, kanban, and TPM",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Total productive maintenance and non-value-added activities",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 3,
+        "section": "6.24",
+        "question": "Overproduction, scrap, waiting, and excess motion are all forms of:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "TPM",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Muda",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Kanban",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "CFM",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 4,
+        "section": "6.30",
+        "question": "From an upper management perspective, what has been the principal motivating factor in embracing Six Sigma?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Bottom line results",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Market share growth",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Defect reductions",
+            "isCorrect": false
+          },
+          { "id": 3, "answerText": "Customer focus", "isCorrect": false }
+        ]
+      },
+      {
+        "questionId": 5,
+        "section": "6.33",
+        "question": "The Theory of Constraints is concerned with the basic measures of throughout, inventory, and operational expenses, which can be expressed as:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Incoming money, money stuck inside, and money going out",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Money on hold, incoming money, and bottlenecks",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Money stuck inside, cash flow, and return on investment",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Money going out, money coming in, and assumptions",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 6,
+        "section": "6.35",
+        "question": "Customer, functional, physical and process domains are considered component elements of which of the following DFSS approaches?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Axiomatic design",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Design for six sigma",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "TRIZ",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Set based concurrent engineering (SBCE)",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 7,
+        "section": "6.42",
+        "question": "Which of the following would be the first consideration when selecting a process to monitor?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "A process which affects less than 5% of the products",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "A process with significant customer impact",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "A process requiring a large capital investment to modify",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Surface blemishes cost more than any other category",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 8,
+        "section": "6.45",
+        "question": "Why has six sigma been so successful for many organizations?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Bottom line results are enhanced",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "A ± 1.5 sigma shift is included",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "An undisciplined approach is used",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Sound statistical approaches are eliminated",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 9,
+        "section": "6.6",
+        "question": "The reduction or elimination of defects in manufacturing through simple mechanical means or methods is described as:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Six Sigma",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Poka-yoke",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Kaizen",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Kanban",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 10,
+        "section": "6.69",
+        "question": "Which of the following concepts would be useful in reducing a production bottleneck that occurs when a tool change is necessary?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "JIT",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "SMED",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Poka-yoke",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Kanban",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "examName": "Measurement Tools Exam",
+    "questionsArray": [
+      {
+        "questionId": 1,
+        "section": "7.3",
+        "question": "A reliability statement for a given product would be incomplete unless it included:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "A numerical probability value",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Installation time requirements",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Unsuccessful product performance requirements",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Manufacturing environmental requirements",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 2,
+        "section": "7.6",
+        "question": "A measurement variability experiment that tries different combinations of operator, procedure, and environment is called:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Repeatability",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Reproducibility",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Uncertainty",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Standard deviation",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 3,
+        "section": "7.9",
+        "question": "The process has been performing satisfactorily for some time, however an improvement is required.  The best response is to:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Direct the workforce to be more careful in their work",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Issue a slogan \"do it right the first time\"",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Identify the special causes to correct the process",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Identify the common causes to correct the process",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 4,
+        "section": "7.12",
+        "question": "What technique compares dispersion with the average of data?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Standard deviation",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Variance",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Coefficient of variation",
+            "isCorrect": false
+          },
+          { "id": 3, "answerText": "Process capability", "isCorrect": false }
+        ]
+      },
+      {
+        "questionId": 5,
+        "section": "7.15",
+        "question": "A key indicator of the company's quality level has shown a cyclic pattern over the past three years.  The number is calculated and reported once a month and has had peaks in the months of July and August and valleys in the months of January and February.  From this information it can be concluded that:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "The manufacturing machinery is hotter in the summer and cannot hold tolerances",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "More people are on vacation in the summer months and defects increase",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Sales are lower in winter months so there are fewer parts made",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "There is a correlation between seasonal factors and quality",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 6,
+        "section": "7.18",
+        "question": "For measurement data gathering and analysis, a good practice to follow would be to:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Encourage individual databases for data gathering and sharing",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Avoid personal interpretation and subjectivity in the raw data",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Modify and correct data as necessary",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Provide elegant statistical proofs for most metric definitions",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 7,
+        "section": "7.21",
+        "question": "When a process tolerance is larger (has a wider spread) than the product specification limits, the process will:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Produce few defects",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Produce defects causing costly scrap and rework",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Be under control",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Need to be controlled statistically",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 8,
+        "section": "7.24",
+        "question": "A measurements that is accurate would demonstrate:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Precision",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "A lack of bias",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Repeatability",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Stability",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 9,
+        "section": "7.28",
+        "question": "When analyzing variation within the process, the most common mistake committed by upper management is:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Not being familiar with modern statistical techniques",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Focusing on internal variation and not external customer driven data",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Treating common cause variation as special cause variation",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Requesting too little data because of their time constraints",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 10,
+        "section": "7.31",
+        "question": "During the middle portion of the bathtub curve for a complex product, one would expect to find:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "A failure rate modeled by the exponential distribution",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "A rapidly decreasing failure rate",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "An increasing failure rate",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "A failure rate typical of the normal or Weibull distribution",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 11,
+        "section": "7.34",
+        "question": "A reliability term that applies to non-repairable products is:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "MTTF",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "MTBF",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "MTBMA",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "MTTR",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 12,
+        "section": "7.35",
+        "question": "A process control chart would be effective in displaying:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Parallel decision events",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Decision making steps",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Out of control processes",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "The current sequence of events",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "examName": "Leadership Exam",
+    "questionsArray": [
+      {
+        "questionId": 1,
+        "section": "2.4",
+        "question": "For employee involvement efforts to succeed, what may be needed?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Increased employee incentives",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Increased basic training company-wide",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Employee understanding of how they can make a difference",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "The initiation of pilot projects",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 2,
+        "section": "2.9",
+        "question": "Project management organizational structure is most similar to:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Traditional hierarchical management",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Functional line management",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Product line management",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Matrix management",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 3,
+        "section": "2.13",
+        "question": "What role is most needed for a change process to be successful?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "A catalyst",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "A team leader",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "A CEO",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "A quality manager",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 4,
+        "section": "2.18",
+        "question": "In this ever changing world, a change agent should be aware of which of the following descriptive terms?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Permanent whitewater",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Iceberg movement",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Refreezing conditions",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Thawing conditions",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 5,
+        "section": "2.22",
+        "question": "In leading change, a manager must prepare the organization.  What is the first consideration from the items below?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Create a vision",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Determine the need for change",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Repeat the change cycle",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Restructure the work",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 6,
+        "section": "2.27",
+        "question": "When motivating the work force, management should undertake which of the following actions?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Increased employee involvement",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Encrouagement of team competition",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Development of repetitive work",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "One-way communication channels",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 7,
+        "section": "2.31",
+        "question": "Which of the following team types are most likely to select its own leader?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Self directed teams",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Six sigma teams",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Corss functional teams",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Project management teams",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 8,
+        "section": "2.36",
+        "question": "Which of the following methods, used to improve employee efficiency and promote an atmosphere conducive to quality and profit, is the most effective in the long run?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Offering incentives such as bonuses, praise, profit sharing, etc",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Ensuring strict discipline to reduce mistkes, idleness, and sloppiness",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Using combinations of incentives and discipline to provide both reward and punishment",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Providing motivation, with incentives and discipline used with caution",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 9,
+        "section": "2.40",
+        "question": "In most cases, conflict within an organization:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Has a negative effect on the employees",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Has a positive effect on creating alternate solutions",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Most often results in a win-win situation",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Promotes horizontal and vertical employee growth skills",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 10,
+        "section": "2.45",
+        "question": "Which of the following team guidelines would most appropriately fit into the \"behavior norms\" element(s)?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "The location and time of the meeting",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "The selection and duties of the facilitator",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "What will the group consider to be confidential",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Whether fishbone or Pareto diagrams will be used",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 11,
+        "section": "2.49",
+        "question": "Which of the following are typical action descriptions used in conflict resolution?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Divergent, differential, discrepancy, disparity",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Interpersonal, intrapersonal, intergroup, intragroup",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Accommodating, avoiding, collaborating, compromising",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Forming, storming, norming, performing",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 12,
+        "section": "2.54",
+        "question": "The resistance to employee empowerment would be impacted most by which of the following?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Employee trust in management intentions",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Agreement between union and management personnel",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Minimal involvement of middle maangement in the process",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "The use of formal employee suggestion systems",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 13,
+        "section": "2.58",
+        "question": "When reovlutionary organizational changes are ncessary, some companies have shut down facilities and brought together thousands of employees at one time.  What would be an advantage of doing this?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Lower short term expenses",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Immediate decision making",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Weaker commitments",
+            "isCorrect": false
+          },
+          { "id": 3, "answerText": "Slower communications", "isCorrect": false }
+        ]
+      },
+      {
+        "questionId": 14,
+        "section": "2.63",
+        "question": "In reatlionships with peers, which item is specifically addressed in the ASQ Code of Ethics?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "I will willingly and objectively accept technical peer review",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "I will perform services in all business areas",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "I will attain certification in multiple areas",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "I will give credit to those to whom it is due",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 15,
+        "section": "2.67",
+        "question": "The cross functional team approach to quality improvement is effective because:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Nobody is ultimately responsible for the results",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "\"Finger pointing\" has an opportunity to get sorted out once and for all",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Team member diversity brings a more complete knowledge of the process",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Problems can be solved on the spot",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "examName": "Customer Focused Organizations Exam",
+    "questionsArray": [
+      {
+        "questionId": 1,
+        "section": "8.3",
+        "question": "The training of customers:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Can lead to an increase in complaints",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Is seldom worthwhile in terms of benefits and costs",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "May decrease product loyalty",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Is a source for product improvements and market trends",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 2,
+        "section": "8.6",
+        "question": "An intermediate customer of used text books is:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "The book buying student",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "The bookstore",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "The book publisher",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "The college classroom",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 3,
+        "section": "8.9",
+        "question": "Listening to the customer, normally means:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "The external customer",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "The intermediate user",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "The internal customer",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "The marketing department",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 4,
+        "section": "8.12",
+        "question": "What is the best method that a public manager can use to listen to his / her customers?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Conduct focus groups",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "List factors important to customers",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Conduct internal meetings on customer needs",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Visit comparable public entities",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 5,
+        "section": "8.15",
+        "question": "Which of the following is the best approach for internal customer service data collection?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Customer surveys and visits",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Analysis of internal survey forms",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Supplier visits and surveys",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Analysis of external complaints",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 6,
+        "section": "8.18",
+        "question": "You purchased a new personal computer.  The technician helped you to get familiar with the PC and provided some special hints on maintaining it.  The attributes of this transaction could be described as:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Basic",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Expected",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Desired",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Unanticipated",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 7,
+        "section": "8.21",
+        "question": "Internal customers are important to all organizations.  The staff departments should adapt a philosophy of:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "We are an expert department",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "We have specialized skills",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "We develop projects for line department to implement",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "We are a service department",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 8,
+        "section": "8.24",
+        "question": "Outstanding service companies perform which activity first?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Treat employees as external customers",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Train employees extensively in customer service skills",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Give communication skills training",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Provide good recovery skills training",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 9,
+        "section": "8.27",
+        "question": "Management wants commitment for a new Total Quality effort.  They have sold the effort to the organization and obtained \"commitment\" from everyone.  The TQ effort is followed to the letter of the law.  The organizations commitment is in which phase?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Late state",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Compliance state",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Enrolled state",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Committed state",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 10,
+        "section": "8.30",
+        "question": "The business market usually has which of the following characteristics?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Specialized personnel for purchasing",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Small cost per purchase contracts",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Little knowledge about the product",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "No access to technical data",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 11,
+        "section": "8.33",
+        "question": "What is the starting point for developing a customer service driven company?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Train employees in customer satisfaction techniques",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Gather and research customer data",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Measure customer satisfaction",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Focus strategy on customer satisfaction",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 12,
+        "section": "8.36",
+        "question": "A study on best customer satisfaction practices suggests which principle?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Use proper sampling methods to collect data",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Use consultant designed survey forms",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Use multiple instruments to collect data",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Use good equipment for sampling",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 13,
+        "section": "8.39",
+        "question": "When one works through a conflict situation with a customer:",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "There is no conflict, the customer is always right",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "The process should not embarrass either party",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "The company should maintain its position",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "All steps and procedures are strictly followed",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 14,
+        "section": "8.42",
+        "question": "In the life cycle of a customer which of the following stages comes first?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Acquisition",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Retention",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Attrition",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Defection",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionId": 15,
+        "section": "8.45",
+        "question": "How should the value of a customer be best measured?",
+        "answers": [
+          {
+            "id": 0,
+            "answerText": "Current volume contribution",
+            "isCorrect": true
+          },
+          {
+            "id": 1,
+            "answerText": "Loyalty",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "answerText": "Lifetime Worth",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "answerText": "Retention Length",
             "isCorrect": false
           }
         ]
