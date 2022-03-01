@@ -51,7 +51,7 @@ function ExamQuestions() {
       const { data } = await addScore({
         variables: {
           examId: exam._id,
-          testScore: Math.round((score / 12) * 100),
+          testScore: Math.round((score / questions.length) * 100),
           examName: exam.examName,
         },
       });
