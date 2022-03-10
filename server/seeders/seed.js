@@ -1,5 +1,5 @@
 const db = require('../config/connection');
-const { Exam, Section } = require('../models');
+const { Exam, Section, User, Score } = require('../models');
 const examSeeds = require('./examSeeds.json');
 const sectionSeeds = require('./sectionSeeds.json');
 
@@ -10,6 +10,8 @@ db.once('open', async () => {
 
     await Exam.create(examSeeds);
     await Section.create(sectionSeeds);
+    await User.create();
+    await Score.create();
   } catch (err) {
     console.error(err);
     process.exit(1);
