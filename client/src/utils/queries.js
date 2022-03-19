@@ -40,11 +40,9 @@ export const QUERY_SINGLE_EXAM = gql`
       questionsArray {
         _id
         questionId
-        section
         question
         answers {
           _id
-          id
           answerText
           isCorrect
         }

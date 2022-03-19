@@ -18,7 +18,6 @@ const typeDefs = gql`
     _id: ID
     questionId: Int
     question: String
-    section: String
     answers: [Answers]!
   }
 

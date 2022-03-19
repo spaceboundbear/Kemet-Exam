@@ -13,6 +13,12 @@ function ExamQuestions() {
     variables: { examId: examId },
   });
 
+  const styles = {
+    header: {
+      whiteSpace: 'pre-line',
+    },
+  };
+
   const exam = data?.exam || {};
   const questions = exam.questionsArray;
 
@@ -89,23 +95,21 @@ function ExamQuestions() {
               Question {currentQuestion + 1}/{questions.length}
             </Card.Body>
             <Card.Title className="mb-3 text-center">
-              <h5>{questions[currentQuestion].question}</h5>
+              <h5 style={styles.header}>
+                {questions[currentQuestion].question}
+              </h5>
             </Card.Title>
-          </Card>
-          <Card className="mt-3 col-sm-12">
             <Row>
               <Col className="mt-3 text-center">
-                {questions[currentQuestion].answers.map((answerOption) => {
-                  return (
-                    <li
-                      key={answerOption.id}
-                      className="btn btn-primary mb-3 col-sm-8"
-                      onClick={() => handleAnswerOption(answerOption.isCorrect)}
-                    >
-                      {answerOption.answerText}
-                    </li>
-                  );
-                })}
+                {questions[currentQuestion].answers.map((answerOption) => (
+                  <li
+                    key={answerOption._id}
+                    className="btn btn-primary mb-3 col-sm-8"
+                    onClick={() => handleAnswerOption(answerOption.isCorrect)}
+                  >
+                    {answerOption.answerText}
+                  </li>
+                ))}
               </Col>
             </Row>
           </Card>

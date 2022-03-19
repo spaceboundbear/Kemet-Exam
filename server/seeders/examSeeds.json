@@ -10,7 +10,7 @@
           {
             "id": 0,
             "answerText": "An autopsy of successfully completed projects",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -184,7 +184,7 @@
       {
         "questionId": 10,
         "section": "4.41",
-        "question": "Using the financial data below, what is the profit to investment ratio ROA for a hypothetical company? Liabilities       $150,000 Net Income        $100,000 Total Assets      $220,000 Equity            $30,000",
+        "question": "Using the financial data below, what is the profit to investment ratio ROA for a hypothetical company?\nLiabilities       $150,000 \nNet Income        $100,000 \nTotal Assets      $220,000 \n Equity            $30,000",
         "answers": [
           { "id": 0, "answerText": "0.30", "isCorrect": true },
           { "id": 1, "answerText": "0.45", "isCorrect": false },
