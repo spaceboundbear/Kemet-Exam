@@ -25,7 +25,7 @@
           {
             "id": 3,
             "answerText": "The statement of work is divided into the detailed listing of required activities",
-            "isCorrect": false
+            "isCorrect": true
           }
         ]
       },
@@ -37,7 +37,7 @@
           {
             "id": 0,
             "answerText": "To weed out undesirable traits from certain job positions",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -47,7 +47,7 @@
           {
             "id": 2,
             "answerText": "To help companies optimize their use of human resources",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -72,8 +72,8 @@
         "section": "4.21",
         "question": "Financial assets with value such as goodwill, patents, licenses, and intellectual property are called:",
         "answers": [
-          { "id": 0, "answerText": "Equity", "isCorrect": true },
-          { "id": 1, "answerText": "Intagibles", "isCorrect": false },
+          { "id": 0, "answerText": "Equity", "isCorrect": false },
+          { "id": 1, "answerText": "Intagibles", "isCorrect": true },
           { "id": 2, "answerText": "Currency", "isCorrect": false },
           { "id": 3, "answerText": "Income", "isCorrect": false }
         ]
@@ -83,11 +83,11 @@
         "section": "4.26",
         "question": "Frederick Taylor is associated with which management style?",
         "answers": [
-          { "id": 0, "answerText": "Systemic Management", "isCorrect": true },
+          { "id": 0, "answerText": "Systemic Management", "isCorrect": false },
           {
             "id": 1,
             "answerText": "Scientific Management",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 2,
@@ -106,10 +106,10 @@
         "section": "4.29",
         "question": "Information comes to this person quite readily. They are often at the crossroads of many people. These two statements describe:",
         "answers": [
-          { "id": 0, "answerText": "Door Openers", "isCorrect": true },
+          { "id": 0, "answerText": "Door Openers", "isCorrect": false },
           { "id": 1, "answerText": "Boundary Spanners", "isCorrect": false },
           { "id": 2, "answerText": "Grapevines", "isCorrect": false },
-          { "id": 3, "answerText": "Gatekeepers", "isCorrect": false }
+          { "id": 3, "answerText": "Gatekeepers", "isCorrect": true }
         ]
       },
       {
@@ -162,7 +162,7 @@
           {
             "id": 0,
             "answerText": "A pattern of information from which explicit inferences and predictions can be made",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -172,7 +172,7 @@
           {
             "id": 2,
             "answerText": "Those processes that support a firm in creating, disseminating, and applying knowledge",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -186,8 +186,8 @@
         "section": "4.41",
         "question": "Using the financial data below, what is the profit to investment ratio ROA for a hypothetical company?\nLiabilities       $150,000 \nNet Income        $100,000 \nTotal Assets      $220,000 \n Equity            $30,000",
         "answers": [
-          { "id": 0, "answerText": "0.30", "isCorrect": true },
-          { "id": 1, "answerText": "0.45", "isCorrect": false },
+          { "id": 0, "answerText": "0.30", "isCorrect": false },
+          { "id": 1, "answerText": "0.45", "isCorrect": true },
           { "id": 2, "answerText": "0.67", "isCorrect": false },
           { "id": 3, "answerText": "0.68", "isCorrect": false }
         ]
@@ -200,7 +200,7 @@
           {
             "id": 0,
             "answerText": "In controlling and organizing",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -210,7 +210,7 @@
           {
             "id": 2,
             "answerText": "In conversations and meetings",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -227,12 +227,12 @@
           {
             "id": 0,
             "answerText": "Assessing where the employee is now",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
             "answerText": "Establishing individual career goals (by the employee)",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 2,
@@ -259,7 +259,7 @@
           {
             "id": 0,
             "answerText": "5 Days",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -269,7 +269,7 @@
           {
             "id": 2,
             "answerText": "8 Days",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -286,7 +286,7 @@
           {
             "id": 0,
             "answerText": "Identify the project benefits",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -296,7 +296,7 @@
           {
             "id": 2,
             "answerText": "Determine if a project will be worthwhile",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -313,7 +313,7 @@
           {
             "id": 0,
             "answerText": "The effectiveness of competing projects.",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -328,7 +328,7 @@
           {
             "id": 3,
             "answerText": "How well project team members worked together.",
-            "isCorrect": false
+            "isCorrect": true
           }
         ]
       },
@@ -340,12 +340,12 @@
           {
             "id": 0,
             "answerText": "To highlight the project team's efforts.",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
             "answerText": "To review the schedule and costs.",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 2,
@@ -394,7 +394,7 @@
           {
             "id": 0,
             "answerText": "Request authorization to crash the event.",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -404,7 +404,7 @@
           {
             "id": 2,
             "answerText": "Negotiate with a line manager who controls a critical resource.",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -448,7 +448,7 @@
           {
             "id": 0,
             "answerText": "The critical path to be known in advance.",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -458,7 +458,7 @@
           {
             "id": 2,
             "answerText": "Time estimates for each activity in the network.",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -530,7 +530,7 @@
           {
             "id": 0,
             "answerText": "Effective problem solving",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -540,7 +540,7 @@
           {
             "id": 2,
             "answerText": "Continuous process improvement",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -557,12 +557,12 @@
           {
             "id": 0,
             "answerText": "Develop a quality policy",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
             "answerText": "Establish a quality council",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 2,
@@ -584,12 +584,12 @@
           {
             "id": 0,
             "answerText": "Many American companies employ too many inspectors",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
             "answerText": "Quality should be built into the product not inspected in",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 2,
@@ -611,14 +611,14 @@
           {
             "id": 0,
             "answerText": "Quality information group",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
             "answerText": "Reliability engineering",
             "isCorrect": false
           },
-          { "id": 2, "answerText": "Inspection", "isCorrect": false },
+          { "id": 2, "answerText": "Inspection", "isCorrect": true },
           { "id": 3, "answerText": "Lab testing", "isCorrect": false }
         ]
       },
@@ -630,7 +630,7 @@
           {
             "id": 0,
             "answerText": "The lower organizational levels won't know what's going on",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -640,7 +640,7 @@
           {
             "id": 2,
             "answerText": "The manager may devote time to micro-managing instead of delegating",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -657,7 +657,7 @@
           {
             "id": 0,
             "answerText": "Identifying key performance factors",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -672,7 +672,7 @@
           {
             "id": 3,
             "answerText": "Undertaking significant changes to advance performance",
-            "isCorrect": false
+            "isCorrect": true
           }
         ]
       },
@@ -681,9 +681,9 @@
         "section": "5.21",
         "question": "A company is required by customer contract to have a standard quality system implemented, but does not indicate a specific standard.  Which quality system is most appropriate to meet this customer's requirement?",
         "answers": [
-          { "id": 0, "answerText": "BNQP", "isCorrect": true },
+          { "id": 0, "answerText": "BNQP", "isCorrect": false },
           { "id": 1, "answerText": "ISO 9000", "isCorrect": false },
-          { "id": 2, "answerText": "ISO 9001", "isCorrect": false },
+          { "id": 2, "answerText": "ISO 9001", "isCorrect": true },
           { "id": 3, "answerText": "ISO 9004", "isCorrect": false }
         ]
       },
@@ -746,8 +746,8 @@
         "section": "5.29",
         "question": "Your company has implemented the current Baldrige National Quality Criteria and can demonstrate in the areas of leadership and strategic planning.  There has been some weakness in the area of process management.  Considering only these three categories, you conclude that your company will obtain which of the following point totals?",
         "answers": [
-          { "id": 0, "answerText": "100", "isCorrect": true },
-          { "id": 1, "answerText": "235", "isCorrect": false },
+          { "id": 0, "answerText": "100", "isCorrect": false },
+          { "id": 1, "answerText": "235", "isCorrect": true },
           { "id": 2, "answerText": "290", "isCorrect": false },
           { "id": 3, "answerText": "310", "isCorrect": false }
         ]
@@ -792,12 +792,12 @@
           {
             "id": 0,
             "answerText": "Legal change",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
             "answerText": "Unexpected war",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 2,
@@ -819,7 +819,7 @@
           {
             "id": 0,
             "answerText": "Delegated",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -834,7 +834,7 @@
           {
             "id": 3,
             "answerText": "Deployed",
-            "isCorrect": false
+            "isCorrect": true
           }
         ]
       },
@@ -846,12 +846,12 @@
           {
             "id": 0,
             "answerText": "Personnel cutbacks and more work loads",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
             "answerText": "Reduction in costs and improvements in resource efficiency",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 2,
@@ -873,7 +873,7 @@
           {
             "id": 0,
             "answerText": "Product quality",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -883,7 +883,7 @@
           {
             "id": 2,
             "answerText": "Long term goals",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -927,7 +927,7 @@
           {
             "id": 0,
             "answerText": "Increasing demand for metal products",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -937,7 +937,7 @@
           {
             "id": 2,
             "answerText": "Lowering metal producer selling prices",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -954,12 +954,12 @@
           {
             "id": 0,
             "answerText": "New technologies",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
             "answerText": "External environment",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 2,
@@ -981,7 +981,7 @@
           {
             "id": 0,
             "answerText": "Major benchmarks",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -991,7 +991,7 @@
           {
             "id": 2,
             "answerText": "Numerous tactical quality goals",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -1008,7 +1008,7 @@
           {
             "id": 0,
             "answerText": "Develop a vision for the company",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -1020,7 +1020,7 @@
             "answerText": "Gather data on the environment",
             "isCorrect": false
           },
-          { "id": 3, "answerText": "Implement the plan", "isCorrect": false }
+          { "id": 3, "answerText": "Implement the plan", "isCorrect": true }
         ]
       },
       {
@@ -1031,7 +1031,7 @@
           {
             "id": 0,
             "answerText": "Reluctance to present the findings to an embarrassed management group",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -1046,7 +1046,7 @@
           {
             "id": 3,
             "answerText": "Lack of an adequate follow through on any proposed action plans",
-            "isCorrect": false
+            "isCorrect": true
           }
         ]
       },
@@ -1058,7 +1058,7 @@
           {
             "id": 0,
             "answerText": "They often contain many complex items",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -1068,7 +1068,7 @@
           {
             "id": 2,
             "answerText": "They are general enough to not require frequent rewrite",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -1108,7 +1108,7 @@
           {
             "id": 0,
             "answerText": "Usually defined by customer",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -1118,7 +1118,7 @@
           {
             "id": 2,
             "answerText": "Supportive of strategic objectives",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -1135,12 +1135,12 @@
           {
             "id": 0,
             "answerText": "Mission and objectives",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
             "answerText": "Objectives and goals",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 2,
@@ -1163,7 +1163,7 @@
           {
             "id": 0,
             "answerText": "To replace partnership relationships",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -1173,7 +1173,7 @@
           {
             "id": 2,
             "answerText": "To reduce costs and prevent future problems",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -1244,12 +1244,12 @@
           {
             "id": 0,
             "answerText": "A great public relations gesture when personnel are available",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
             "answerText": "A greater benefit to the company than it is to the supplier",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 2,
@@ -1325,7 +1325,7 @@
           {
             "id": 0,
             "answerText": "Quality requirements and audit schedules",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -1340,7 +1340,7 @@
           {
             "id": 3,
             "answerText": "Purchasing value and overall quality costs",
-            "isCorrect": false
+            "isCorrect": true
           }
         ]
       },
@@ -1379,7 +1379,7 @@
           {
             "id": 0,
             "answerText": "Determining the lowest cost supplier",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -1389,7 +1389,7 @@
           {
             "id": 2,
             "answerText": "Interdependence of customers and suppliers",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -1406,7 +1406,7 @@
           {
             "id": 0,
             "answerText": "A small share of a partner's business",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -1416,7 +1416,7 @@
           {
             "id": 2,
             "answerText": "The presence of joint task teams",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -1433,9 +1433,9 @@
           {
             "id": 0,
             "answerText": "Cost of quality formats",
-            "isCorrect": true
+            "isCorrect": false
           },
-          { "id": 1, "answerText": "Trend charting", "isCorrect": false },
+          { "id": 1, "answerText": "Trend charting", "isCorrect": true },
           { "id": 2, "answerText": "Tabular tables", "isCorrect": false },
           { "id": 3, "answerText": "Control charting", "isCorrect": false }
         ]
@@ -1448,7 +1448,7 @@
           {
             "id": 0,
             "answerText": "ISO 9001 or ISO / TS 16949 certification",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -1463,7 +1463,7 @@
           {
             "id": 3,
             "answerText": "Prior product performance",
-            "isCorrect": false
+            "isCorrect": true
           }
         ]
       },
@@ -1475,7 +1475,7 @@
           {
             "id": 0,
             "answerText": "The validation of design and development",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -1485,7 +1485,7 @@
           {
             "id": 2,
             "answerText": "The identification, packaging, and storage details",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -1561,12 +1561,12 @@
           {
             "id": 0,
             "answerText": "Learning at regular intervals is more effective than cramming",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
             "answerText": "The beginning and ending training material is most likely to be remembered",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 2,
@@ -1588,7 +1588,7 @@
           {
             "id": 0,
             "answerText": "Providing incentives and meaningful work",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -1598,7 +1598,7 @@
           {
             "id": 2,
             "answerText": "Identifying performance gaps",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -1642,7 +1642,7 @@
           {
             "id": 0,
             "answerText": "The department supervisor",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -1654,7 +1654,7 @@
             "answerText": "The human resource department",
             "isCorrect": false
           },
-          { "id": 3, "answerText": "The employee", "isCorrect": false }
+          { "id": 3, "answerText": "The employee", "isCorrect": true }
         ]
       },
       {
@@ -1665,12 +1665,12 @@
           {
             "id": 0,
             "answerText": "Managers have more time available for training",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
             "answerText": "Managers must lead the quality improvement efforts",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 2,
@@ -1692,7 +1692,7 @@
           {
             "id": 0,
             "answerText": "Are seldom used for high tech products",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -1702,7 +1702,7 @@
           {
             "id": 2,
             "answerText": "Allows for instructor adjustment to meet class specific needs",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -1719,12 +1719,12 @@
           {
             "id": 0,
             "answerText": "Is expected to decrease in the future because of increased costs",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
             "answerText": "Enables one instructor to teach a virtually unlimited number of people",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 2,
@@ -1773,12 +1773,12 @@
           {
             "id": 0,
             "answerText": "Have training classes which teach skills and knowledge required",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
             "answerText": "Provide feedback to the employee as to his / her performance",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 2,
@@ -1800,7 +1800,7 @@
           {
             "id": 0,
             "answerText": "The student understood the training material",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -1810,7 +1810,7 @@
           {
             "id": 2,
             "answerText": "Most of the questions were answered correctly",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -1854,7 +1854,7 @@
           {
             "id": 0,
             "answerText": "Have all classes start at 8:30 AM",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -1864,7 +1864,7 @@
           {
             "id": 2,
             "answerText": "Start classes at one-half hour after the start of each regular shift",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -1908,12 +1908,12 @@
           {
             "id": 0,
             "answerText": "A classical training tool with low development costs",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
             "answerText": "A technical training tool with low user costs",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 2,
@@ -1932,7 +1932,7 @@
         "section": "10.37",
         "question": "Which of the following training planning factors would come last in order sequence?",
         "answers": [
-          { "id": 0, "answerText": "Determine the needs", "isCorrect": true },
+          { "id": 0, "answerText": "Determine the needs", "isCorrect": false },
           {
             "id": 1,
             "answerText": "Define the objectives",
@@ -1946,7 +1946,7 @@
           {
             "id": 3,
             "answerText": "Prepare the necessary material",
-            "isCorrect": false
+            "isCorrect": true
           }
         ]
       }
@@ -1990,7 +1990,7 @@
           {
             "id": 0,
             "answerText": "Appraisal costs",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -2005,7 +2005,7 @@
           {
             "id": 3,
             "answerText": "Failure costs",
-            "isCorrect": false
+            "isCorrect": true
           }
         ]
       },
@@ -2017,7 +2017,7 @@
           {
             "id": 0,
             "answerText": "Display the significant few",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -2027,7 +2027,7 @@
           {
             "id": 2,
             "answerText": "Show relationships between variables",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -2067,7 +2067,7 @@
           {
             "id": 0,
             "answerText": "More money should be invested in prevention",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -2082,7 +2082,7 @@
           {
             "id": 3,
             "answerText": "Nothing",
-            "isCorrect": false
+            "isCorrect": true
           }
         ]
       },
@@ -2121,7 +2121,7 @@
           {
             "id": 0,
             "answerText": "The operator causes more problems than the design",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -2131,7 +2131,7 @@
           {
             "id": 2,
             "answerText": "Inclusions cause more defects than cracking",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -2148,12 +2148,12 @@
           {
             "id": 0,
             "answerText": "It displays causes in an organized manner",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
             "answerText": "It takes time to perform and prioritize",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 2,
@@ -2175,12 +2175,12 @@
           {
             "id": 0,
             "answerText": "Histograms",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
             "answerText": "Cause and effect diagrams",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 2,
@@ -2202,7 +2202,7 @@
           {
             "id": 0,
             "answerText": "Request compensation time for the extraordinary number of hours spent on this project",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -2212,7 +2212,7 @@
           {
             "id": 2,
             "answerText": "Document the process using written procedures and flow charting",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -2229,12 +2229,12 @@
           {
             "id": 0,
             "answerText": "Identify sources of non-conforming products",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
             "answerText": "Help analyze the process and compare it to written instructions",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 2,
@@ -2256,12 +2256,12 @@
           {
             "id": 0,
             "answerText": "Difficulty of completing the FMEA form",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
             "answerText": "Possible impact to a system user of a low level failure",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 2,
@@ -2342,12 +2342,12 @@
           {
             "id": 0,
             "answerText": "TPM",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
             "answerText": "Muda",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 2,
@@ -2446,7 +2446,7 @@
           {
             "id": 0,
             "answerText": "A process which affects less than 5% of the products",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -2456,7 +2456,7 @@
           {
             "id": 2,
             "answerText": "A process requiring a large capital investment to modify",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -2500,12 +2500,12 @@
           {
             "id": 0,
             "answerText": "Six Sigma",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
             "answerText": "Poka-yoke",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 2,
@@ -2527,12 +2527,12 @@
           {
             "id": 0,
             "answerText": "JIT",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
             "answerText": "SMED",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 2,
@@ -2884,7 +2884,7 @@
           {
             "id": 0,
             "answerText": "Increased employee incentives",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -2894,7 +2894,7 @@
           {
             "id": 2,
             "answerText": "Employee understanding of how they can make a difference",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -2911,7 +2911,7 @@
           {
             "id": 0,
             "answerText": "Traditional hierarchical management",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -2926,7 +2926,7 @@
           {
             "id": 3,
             "answerText": "Matrix management",
-            "isCorrect": false
+            "isCorrect": true
           }
         ]
       },
@@ -2992,7 +2992,7 @@
           {
             "id": 0,
             "answerText": "Create a vision",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -3002,7 +3002,7 @@
           {
             "id": 2,
             "answerText": "Repeat the change cycle",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -3073,7 +3073,7 @@
           {
             "id": 0,
             "answerText": "Offering incentives such as bonuses, praise, profit sharing, etc",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -3088,7 +3088,7 @@
           {
             "id": 3,
             "answerText": "Providing motivation, with incentives and discipline used with caution",
-            "isCorrect": false
+            "isCorrect": true
           }
         ]
       },
@@ -3127,7 +3127,7 @@
           {
             "id": 0,
             "answerText": "The location and time of the meeting",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -3137,7 +3137,7 @@
           {
             "id": 2,
             "answerText": "What will the group consider to be confidential",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -3154,7 +3154,7 @@
           {
             "id": 0,
             "answerText": "Divergent, differential, discrepancy, disparity",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -3164,7 +3164,7 @@
           {
             "id": 2,
             "answerText": "Accommodating, avoiding, collaborating, compromising",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -3181,7 +3181,7 @@
           {
             "id": 0,
             "answerText": "Employee trust in management intentions",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -3191,7 +3191,7 @@
           {
             "id": 2,
             "answerText": "Minimal involvement of middle maangement in the process",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -3208,12 +3208,12 @@
           {
             "id": 0,
             "answerText": "Lower short term expenses",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
             "answerText": "Immediate decision making",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 2,
@@ -3231,7 +3231,7 @@
           {
             "id": 0,
             "answerText": "I will willingly and objectively accept technical peer review",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -3246,7 +3246,7 @@
           {
             "id": 3,
             "answerText": "I will give credit to those to whom it is due",
-            "isCorrect": false
+            "isCorrect": true
           }
         ]
       },
@@ -3258,7 +3258,7 @@
           {
             "id": 0,
             "answerText": "Nobody is ultimately responsible for the results",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -3268,7 +3268,7 @@
           {
             "id": 2,
             "answerText": "Team member diversity brings a more complete knowledge of the process",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
