@@ -2586,12 +2586,12 @@
           {
             "id": 0,
             "answerText": "Repeatability",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
             "answerText": "Reproducibility",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 2,
@@ -2613,7 +2613,7 @@
           {
             "id": 0,
             "answerText": "Direct the workforce to be more careful in their work",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -2628,7 +2628,7 @@
           {
             "id": 3,
             "answerText": "Identify the common causes to correct the process",
-            "isCorrect": false
+            "isCorrect": true
           }
         ]
       },
@@ -2640,7 +2640,7 @@
           {
             "id": 0,
             "answerText": "Standard deviation",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -2650,7 +2650,7 @@
           {
             "id": 2,
             "answerText": "Coefficient of variation",
-            "isCorrect": false
+            "isCorrect": true
           },
           { "id": 3, "answerText": "Process capability", "isCorrect": false }
         ]
@@ -2663,7 +2663,7 @@
           {
             "id": 0,
             "answerText": "The manufacturing machinery is hotter in the summer and cannot hold tolerances",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -2678,7 +2678,7 @@
           {
             "id": 3,
             "answerText": "There is a correlation between seasonal factors and quality",
-            "isCorrect": false
+            "isCorrect": true
           }
         ]
       },
@@ -2690,12 +2690,12 @@
           {
             "id": 0,
             "answerText": "Encourage individual databases for data gathering and sharing",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
             "answerText": "Avoid personal interpretation and subjectivity in the raw data",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 2,
@@ -2717,12 +2717,12 @@
           {
             "id": 0,
             "answerText": "Produce few defects",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
             "answerText": "Produce defects causing costly scrap and rework",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 2,
@@ -2744,12 +2744,12 @@
           {
             "id": 0,
             "answerText": "Precision",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
             "answerText": "A lack of bias",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 2,
@@ -2771,7 +2771,7 @@
           {
             "id": 0,
             "answerText": "Not being familiar with modern statistical techniques",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -2781,7 +2781,7 @@
           {
             "id": 2,
             "answerText": "Treating common cause variation as special cause variation",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -2852,7 +2852,7 @@
           {
             "id": 0,
             "answerText": "Parallel decision events",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -2862,7 +2862,7 @@
           {
             "id": 2,
             "answerText": "Out of control processes",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -3290,7 +3290,7 @@
           {
             "id": 0,
             "answerText": "Can lead to an increase in complaints",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -3305,7 +3305,7 @@
           {
             "id": 3,
             "answerText": "Is a source for product improvements and market trends",
-            "isCorrect": false
+            "isCorrect": true
           }
         ]
       },
@@ -3317,12 +3317,12 @@
           {
             "id": 0,
             "answerText": "The book buying student",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
             "answerText": "The bookstore",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 2,
@@ -3398,12 +3398,12 @@
           {
             "id": 0,
             "answerText": "Customer surveys and visits",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
             "answerText": "Analysis of internal survey forms",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 2,
@@ -3425,7 +3425,7 @@
           {
             "id": 0,
             "answerText": "Basic",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -3435,7 +3435,7 @@
           {
             "id": 2,
             "answerText": "Desired",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -3452,7 +3452,7 @@
           {
             "id": 0,
             "answerText": "We are an expert department",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -3467,7 +3467,7 @@
           {
             "id": 3,
             "answerText": "We are a service department",
-            "isCorrect": false
+            "isCorrect": true
           }
         ]
       },
@@ -3506,12 +3506,12 @@
           {
             "id": 0,
             "answerText": "Late state",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
             "answerText": "Compliance state",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 2,
@@ -3560,12 +3560,12 @@
           {
             "id": 0,
             "answerText": "Train employees in customer satisfaction techniques",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
             "answerText": "Gather and research customer data",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 2,
@@ -3587,7 +3587,7 @@
           {
             "id": 0,
             "answerText": "Use proper sampling methods to collect data",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -3597,7 +3597,7 @@
           {
             "id": 2,
             "answerText": "Use multiple instruments to collect data",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
@@ -3614,12 +3614,12 @@
           {
             "id": 0,
             "answerText": "There is no conflict, the customer is always right",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
             "answerText": "The process should not embarrass either party",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 2,
@@ -3668,7 +3668,7 @@
           {
             "id": 0,
             "answerText": "Current volume contribution",
-            "isCorrect": true
+            "isCorrect": false
           },
           {
             "id": 1,
@@ -3678,7 +3678,7 @@
           {
             "id": 2,
             "answerText": "Lifetime Worth",
-            "isCorrect": false
+            "isCorrect": true
           },
           {
             "id": 3,
