@@ -16,6 +16,7 @@ import SignupForm from './pages/Signup';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import ExamQuestions from './pages/Questions';
 import Profile from './pages/Profile';
+import Admin from './pages/Admin';
 
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -51,6 +52,7 @@ function App() {
               <Route exact path="/sections" component={Sections}></Route>
               <Route exact path="/exams" component={Exams}></Route>
               <Route exact path="/me" component={Profile}></Route>
+              <Route exact path="/admin" component={Admin}></Route>
               <Route
                 exact
                 path="/exams/:examId"

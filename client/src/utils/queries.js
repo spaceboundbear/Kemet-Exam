@@ -32,6 +32,20 @@ export const QUERY_USER = gql`
   }
 `;
 
+export const QUERY_USERS = gql`
+  query getAllUsers {
+    users {
+      _id
+      username
+      testScores {
+        _id
+        testScore
+        student
+      }
+    }
+  }
+`;
+
 export const QUERY_SINGLE_EXAM = gql`
   query getSingleExam($examId: ID!) {
     exam(examId: $examId) {
