@@ -35,6 +35,8 @@ class AuthService {
 
     window.location.assign('/');
   }
+
+  admin() {}
 }
 
 export default new AuthService();

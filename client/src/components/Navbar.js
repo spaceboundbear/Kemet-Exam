@@ -4,10 +4,21 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { NavLink } from 'react-router-dom';
 import Auth from '../utils/auth';
 
+const styles = {
+  navbar: {
+    backgoundColor: '#0A4179',
+  },
+};
+
 function Header() {
   return (
     <>
-      <Navbar bg="dark" variant="dark" className="sticky-top">
+      <Navbar
+        style={styles.navbar}
+        bg="dark"
+        variant="dark"
+        className="sticky-top"
+      >
         <Container>
           <Navbar.Brand className="d-none d-md-block">
             Kemet Quality Training
@@ -31,6 +42,9 @@ function Header() {
                   <Nav.Link onClick={Auth.logout} className="nav-link">
                     SIGN OUT
                   </Nav.Link>
+                  <NavLink className="nav-link" to="/admin">
+                    ADMIN
+                  </NavLink>
                 </>
               ) : (
                 <>
